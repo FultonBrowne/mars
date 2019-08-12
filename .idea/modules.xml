@@ -5,6 +5,8 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/mars.iml" filepath="$PROJECT_DIR$/.idea/modules/mars.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/mars.main.iml" filepath="$PROJECT_DIR$/.idea/modules/mars.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/mars.test.iml" filepath="$PROJECT_DIR$/.idea/modules/mars.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sdk.mars.main.iml" filepath="$PROJECT_DIR$/.idea/modules/sdk.mars.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sdk.mars.test.iml" filepath="$PROJECT_DIR$/.idea/modules/sdk.mars.test.iml" />
     </modules>
   </component>
 </project>
