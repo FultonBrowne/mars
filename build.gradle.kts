@@ -15,6 +15,8 @@ version = "1.2.1"
 
 dependencies {
     implementation(kotlin("stdlib-jdk8"))
+    compile (group = "org.apache.opennlp", name = "opennlp-tools", version= "1.9.1")
+
 }
 repositories {
     mavenCentral()
