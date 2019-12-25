@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7d0a696d-9185-4151-9952-44a978a64348" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_opennlp_opennlp_tools_1_9_1.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/andromeda/mars/nlp/MarsNLP.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/andromeda/mars/nlp/MarsNLP.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577216736251</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="adding files for nlp">
+      <created>1577230036198</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1577230036198</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -158,10 +166,10 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="359" y="67" width="647" height="668" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.27.1366.741@0.27.1366.741" timestamp="1577215044798" />
-    <state x="264" y="27" width="828" height="741" key="CommitChangelistDialog2" timestamp="1577216736125">
+    <state x="264" y="27" width="828" height="741" key="CommitChangelistDialog2" timestamp="1577230035813">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="264" y="27" width="828" height="741" key="CommitChangelistDialog2/0.27.1366.741@0.27.1366.741" timestamp="1577216736125" />
+    <state x="264" y="27" width="828" height="741" key="CommitChangelistDialog2/0.27.1366.741@0.27.1366.741" timestamp="1577230035813" />
     <state x="462" y="155" key="FileChooserDialogImpl" timestamp="1577213552380">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
