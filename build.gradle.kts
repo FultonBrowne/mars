@@ -16,6 +16,7 @@ version = "1.2.1"
 dependencies {
     implementation(kotlin("stdlib-jdk8"))
     compile (group = "org.apache.opennlp", name = "opennlp-tools", version= "1.9.1")
+    testImplementation(group = "junit", name = "junit", version = "4.12")
 
 }
 repositories {
