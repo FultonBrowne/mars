@@ -1,0 +1,1 @@
+/home/fulton/Desktop/code/mars/build/classes/kotlin/main/com/andromeda/mars/Demo.class

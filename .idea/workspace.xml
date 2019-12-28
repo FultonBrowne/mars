@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7d0a696d-9185-4151-9952-44a978a64348" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/andromeda/mars/nlp/KeyWord.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/andromeda/mars/nlp/WordGraph.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/andromeda/mars/test/NLPTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/mars.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/mars.test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/andromeda/mars/nlp/MarsNLP.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/andromeda/mars/nlp/MarsNLP.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/andromeda/mars/test/NLPTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/andromeda/mars/test/NLPTest.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,7 +162,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577234378617</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="adding files for nlp and test">
+      <created>1577561713253</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1577561713253</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -171,7 +177,8 @@
     <MESSAGE value="stuff" />
     <MESSAGE value="adding files" />
     <MESSAGE value="adding files for nlp" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding files for nlp" />
+    <MESSAGE value="adding files for nlp and test" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding files for nlp and test" />
   </component>
   <component name="WindowStateProjectService">
     <state x="141" y="55" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1577214381945">
@@ -182,10 +189,10 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="359" y="67" width="647" height="668" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.27.1366.741@0.27.1366.741" timestamp="1577215044798" />
-    <state x="264" y="27" width="828" height="741" key="CommitChangelistDialog2" timestamp="1577234378412">
+    <state x="264" y="27" width="828" height="741" key="CommitChangelistDialog2" timestamp="1577562200032">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="264" y="27" width="828" height="741" key="CommitChangelistDialog2/0.27.1366.741@0.27.1366.741" timestamp="1577234378412" />
+    <state x="264" y="27" width="828" height="741" key="CommitChangelistDialog2/0.27.1366.741@0.27.1366.741" timestamp="1577562200032" />
     <state x="462" y="155" key="FileChooserDialogImpl" timestamp="1577213552380">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
