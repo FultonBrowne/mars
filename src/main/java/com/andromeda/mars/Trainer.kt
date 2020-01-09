@@ -1,6 +1,6 @@
 package com.andromeda.mars
 
-class MakeModel {
+class Trainer {
     fun main(){
 
     }
