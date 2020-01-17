@@ -18,14 +18,13 @@ package com.andromeda.mars;
 
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
-import kotlin.reflect.KClass;
 
 import java.util.ArrayList;
 
 public class JsonParse {
-    public ArrayList<PreTrainedData> preTrainer(String jsontxt) {
+    public ArrayList<Data> preTrainer(String jsontxt) {
         Gson gson = new Gson();
-        return gson.fromJson(jsontxt, new TypeToken<ArrayList<PreTrainedData>>() {
+        return gson.fromJson(jsontxt, new TypeToken<ArrayList<Data>>() {
         }.getType());
 
     }

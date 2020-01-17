@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7d0a696d-9185-4151-9952-44a978a64348" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/andromeda/mars/Data.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/andromeda/mars/JsonParse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/andromeda/mars/JsonParse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/andromeda/mars/TrainedData.kt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/andromeda/mars/Trainer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/andromeda/mars/Trainer.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -201,7 +205,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578598100552</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="awesome thing coming...">
+      <created>1579294285762</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1579294285762</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -222,9 +233,10 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="359" y="67" width="647" height="668" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.27.1366.741@0.27.1366.741" timestamp="1577215044798" />
-    <state x="264" y="27" width="839" height="741" key="CommitChangelistDialog2" timestamp="1578598100360">
-      <screen x="0" y="27" width="1366" height="741" />
+    <state x="0" y="236" width="1680" height="814" key="CommitChangelistDialog2" timestamp="1579294285561">
+      <screen x="0" y="236" width="3046" height="814" />
     </state>
+    <state x="0" y="236" width="1680" height="814" key="CommitChangelistDialog2/0.236.3046.814@0.236.3046.814" timestamp="1579294285561" />
     <state x="264" y="27" width="828" height="741" key="CommitChangelistDialog2/0.27.1366.741@0.27.1366.741" timestamp="1577562200032" />
     <state x="264" y="27" width="839" height="741" key="CommitChangelistDialog2/1680.209.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1578598100360" />
     <state x="462" y="155" key="FileChooserDialogImpl" timestamp="1577213552380">
