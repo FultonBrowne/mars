@@ -13,9 +13,19 @@ class Trainer {
         val list = JsonParse().preTrainer(fullText)
         val finalList = ArrayList<TrainedData>()
         for (i in list){
+            var dataIsMerged = false
             val file = Trainer::class.java.getResource(i.dataDir)
             val dataToMerge = file.content
             println(dataToMerge)
+            for (f in finalList){
+                if (i.value == f.label){
+                    dataIsMerged = true
+                    break
+                }
+            }
+            if (!dataIsMerged){
+                finalList.add(TrainedData(i.value, dataToMerge))
+            }
         }
     }
 }
