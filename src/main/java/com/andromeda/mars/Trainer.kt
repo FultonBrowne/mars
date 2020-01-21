@@ -16,9 +16,12 @@ class Trainer {
             val dataToMerge = i.data
             println(dataToMerge)
             for (f in finalList){
+                val newData = ByteArray(f.data.size)
                 if (i.label== f.label){
                     dataIsMerged = true
-                    f.data = f.data
+                    f.data.forEachIndexed { index, byte ->
+
+                    }
                     break
                 }
             }
