@@ -14,8 +14,9 @@
  *     along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.andromeda.mars;
+package com.andromeda.mars.modelBased;
 
+import com.andromeda.mars.modelBased.Data;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 

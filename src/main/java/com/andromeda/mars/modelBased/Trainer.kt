@@ -1,4 +1,4 @@
-package com.andromeda.mars
+package com.andromeda.mars.modelBased
 
 import java.io.InputStream
 import java.util.*

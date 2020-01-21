@@ -1,4 +1,4 @@
-package com.andromeda.mars
+package com.andromeda.mars.modelBased
 
 data class Data(val label:Any, var data:ByteArray) {
     override fun equals(other: Any?): Boolean {
