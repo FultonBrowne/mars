@@ -3,16 +3,16 @@ package com.andromeda.mars.brain
 class Brain {
     fun main(){
         val i = 1
-        val threads = arrayListOf<BrainType>()
-        threads.add(BrainType(Thread{inputCell()}, 0))
-        while (i < 5){
-
+        val threads = arrayListOf<Thread>()
+        threads.add(Thread{inputCell(0)})
+        while (i < 800){
+            threads.add((Thread{brainTransistor(i)}))
         }
 
     }
-    fun brainTransistor(threads: ArrayList<BrainType>, cellInt:Int){
+    private fun brainTransistor(index:Int){
     }
-    fun inputCell(){
+    private fun inputCell(index: Int){
 
     }
 }
