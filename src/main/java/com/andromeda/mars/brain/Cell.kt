@@ -1,6 +1,6 @@
 package com.andromeda.mars.brain
 
-class Cell(index:Int, size:Int, unitWidth:Int) {
+class Cell(index:Int, size:Int, unitWidth:Int): CellBase() {
     private val i = index
     val s = size
     val u = unitWidth
@@ -11,11 +11,20 @@ class Cell(index:Int, size:Int, unitWidth:Int) {
 
         }
     }
-    fun update(newData:Int){
-        if (data.size > u){
+    override fun getData(newData:Int){
+        data.add(newData)
+        if (data.size == u){
+            var finalData = 0
+            data.forEach {
+                if (finalData == 0)finalData = it
+                else finalData.xor(it)
+            }
             data.clear()
-            data.add(newData)
         }
+    }
+
+    override fun sendData(toSend: ArrayList<Int>) {
+
     }
 
 }
