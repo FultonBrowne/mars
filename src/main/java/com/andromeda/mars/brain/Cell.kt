@@ -4,12 +4,18 @@ class Cell(index:Int, size:Int, unitWidth:Int) {
     private val i = index
     val s = size
     val u = unitWidth
+    val data = arrayListOf<Int>()
     init {
-        val data = i - unitWidth
-        if (data < 0){}
-    }
-    fun update(data:Int){
+        val index = i - unitWidth / 2
+        if (index < 0){
 
+        }
+    }
+    fun update(newData:Int){
+        if (data.size > u){
+            data.clear()
+            data.add(newData)
+        }
     }
 
 }
