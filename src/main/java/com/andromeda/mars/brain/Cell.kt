@@ -1,10 +1,9 @@
 package com.andromeda.mars.brain
 
-class Cell(index:Int, size:Int, unitWidth:Int): CellBase() {
+class Cell(index:Int, size:Int, unitWidth:Int): CellBase(index, unitWidth) {
     private val i = index
     val s = size
     val u = unitWidth
-    val data = arrayListOf<Int>()
     init {
         val index = i - unitWidth / 2
         if (index < 0){
