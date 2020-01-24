@@ -4,10 +4,15 @@ abstract class CellBase(i:Int, u:Int, size:Int) {
     val index = i
     val unitSize = u
     val data = arrayListOf<Int>()
+    val cells = arrayListOf<CellBase>()
     init {
         val sizeSplit =unitSize / 2
         if(index - sizeSplit < 0){
-
+            var toUp = index - sizeSplit
+            while(!toUp.equals(0)){
+                cells.add(OutputCell(i, u, size))
+                toUp + 1
+            }
         }
     }
     open fun getData(newData:Int){

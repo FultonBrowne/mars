@@ -5,6 +5,8 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/andromeda/mars/brain/Cell.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/andromeda/mars/brain/Cell.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/andromeda/mars/brain/CellBase.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/andromeda/mars/brain/CellBase.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/andromeda/mars/brain/InputCell.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/andromeda/mars/brain/InputCell.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/andromeda/mars/brain/OutputCell.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/andromeda/mars/brain/OutputCell.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -334,7 +336,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579752383452</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="awesome thing coming...">
+      <created>1579828101675</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1579828101675</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -365,11 +374,12 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="410" y="39" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/0.27.1366.741@0.27.1366.741" timestamp="1579581158125" />
-    <state x="264" y="27" width="1680" height="814" key="CommitChangelistDialog2" timestamp="1579752383276">
-      <screen x="0" y="27" width="1366" height="741" />
+    <state x="0" y="236" width="1680" height="814" key="CommitChangelistDialog2" timestamp="1579828101105">
+      <screen x="0" y="236" width="1680" height="814" />
     </state>
     <state x="0" y="236" width="1680" height="814" key="CommitChangelistDialog2/0.236.3046.814@0.236.3046.814" timestamp="1579295124240" />
     <state x="264" y="27" width="828" height="741" key="CommitChangelistDialog2/0.27.1366.741@0.27.1366.741" timestamp="1579752383276" />
+    <state x="0" y="236" width="1680" height="814" key="CommitChangelistDialog2/1680.209.1366.768/0.236.1680.814@0.236.1680.814" timestamp="1579828101105" />
     <state x="264" y="27" width="839" height="741" key="CommitChangelistDialog2/1680.209.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1579707933684" />
     <state x="462" y="155" key="FileChooserDialogImpl" timestamp="1577213552380">
       <screen x="0" y="27" width="1366" height="741" />
