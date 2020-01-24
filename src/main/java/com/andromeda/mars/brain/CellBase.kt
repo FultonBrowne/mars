@@ -1,9 +1,15 @@
 package com.andromeda.mars.brain
 
-abstract class CellBase(i:Int, u:Int) {
+abstract class CellBase(i:Int, u:Int, size:Int) {
     val index = i
     val unitSize = u
     val data = arrayListOf<Int>()
+    init {
+        val sizeSplit =unitSize / 2
+        if(index - sizeSplit < 0){
+
+        }
+    }
     open fun getData(newData:Int){
         data.add(newData)
         if (data.size == unitSize){
