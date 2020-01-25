@@ -8,9 +8,21 @@ abstract class CellBase(i:Int, u:Int, size:Int) {
     init {
         var sizeSplit =unitSize / 2
         var indexParse = i - sizeSplit
-        while (!sizeSplit.equals(unitSize)){
+        while (sizeSplit != unitSize){
             indexParse += 1
             sizeSplit = sizeSplit.plus(1)
+            if (indexParse < 0){
+                println("nope")
+            }
+            else if(indexParse < unitSize / 2) {
+                cells.add(InputCell(indexParse, u, size))
+            }
+            else if(indexParse > unitSize/2){
+                cells.add(InputCell(indexParse, u , size))
+            }
+            else{
+                cells.add(Cell(index, u , size))
+            }
         }
     }
     open fun getData(newData:Int){
