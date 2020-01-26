@@ -6,24 +6,27 @@ abstract class CellBase(i:Int, u:Int, size:Int) {
     val data = arrayListOf<Int>()
     val cells = arrayListOf<CellBase>()
     init {
-        var sizeSplit =unitSize / 2
-        var indexParse = i - sizeSplit
-        while (sizeSplit != unitSize){
-            indexParse += 1
-            sizeSplit = sizeSplit.plus(1)
-            if (indexParse < 0){
-                println("nope")
+        println("==============================================================")
+        val sizeSplit =unitSize / 2
+        println("size =" + size )
+        var indexParse = index - unitSize
+        println("index =$index")
+        while (indexParse != sizeSplit + unitSize){
+            indexParse = indexParse + 1
+            println(indexParse)
+            if (indexParse <= 0){
+                println("nope 1")
             }
-            else if(indexParse < unitSize / 2) {
-                cells.add(InputCell(indexParse, u, size))
-            }
-            else if(indexParse > unitSize/2){
-                cells.add(InputCell(indexParse, u , size))
+            else if(indexParse == size) {
+                println("brain")
+                break
             }
             else{
-                cells.add(Cell(index, u , size))
+                println(indexParse)
+                cells.add(Cell(index = indexParse + 1, size = size, unitWidth = u))
             }
         }
+        println("done")
     }
     open fun getData(newData:Int){
         var finalData = 0
@@ -39,6 +42,7 @@ abstract class CellBase(i:Int, u:Int, size:Int) {
         sendData(finalData)
     }
     open fun sendData(toSend:Int){
+        println(toSend)
         cells.forEach {
             it.getData(toSend)
         }
