@@ -9,15 +9,18 @@ plugins {
 
 java {
     sourceCompatibility = JavaVersion.VERSION_1_8
+
     targetCompatibility = JavaVersion.VERSION_1_8
 }
+application.mainClassName = "com.andromeda.mars.run"
 version = "1.2.1"
+
 
 
 dependencies {
     implementation(kotlin("stdlib-jdk8"))
-    compile (group = "org.apache.opennlp", name = "opennlp-tools", version= "1.9.1")
-    compile (group= "com.google.code.gson", name= "gson", version= "2.8.6")
+    implementation (group = "org.apache.opennlp", name = "opennlp-tools", version= "1.9.1")
+    implementation (group= "com.google.code.gson", name= "gson", version= "2.8.6")
     testImplementation(group = "junit", name = "junit", version = "4.12")
 
 }
