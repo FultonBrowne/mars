@@ -15,7 +15,8 @@ java {
 application.mainClassName = "com.andromeda.mars.run"
 version = "1.2.1"
 
-
+val run: JavaExec by tasks
+run.standardInput = System.`in`
 
 dependencies {
     implementation(kotlin("stdlib-jdk8"))

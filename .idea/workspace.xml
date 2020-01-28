@@ -8,6 +8,9 @@
   <component name="ChangeListManager">
     <list default="true" id="7d0a696d-9185-4151-9952-44a978a64348" name="Default Changelist" comment="adding runnable to things">
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/mars.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/mars.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/mars.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/mars.test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/build-history.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/build-history.bin" afterDir="false" />
@@ -21,6 +24,8 @@
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab_i" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/last-build.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/last-build.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/mars121jar-classes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/mars121jar-classes.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/mars-1.2.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/mars-1.2.1.jar" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +105,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/com/andromeda/mars" />
     </key>
   </component>
-  <component name="RunManager" selected="JAR Application.mars.jar">
+  <component name="RunManager" selected="Gradle.mars [build run]">
     <configuration name="run" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.andromeda.mars.run" />
       <module name="mars.main" />
@@ -444,7 +449,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580228821175</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="adding runnable to things">
+      <created>1580234316778</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1580234316778</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -496,26 +508,26 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="462" y="155" key="FileChooserDialogImpl/0.27.1366.741@0.27.1366.741" timestamp="1580183811045" />
-    <state width="1318" height="172" key="GridCell.Tab.0.bottom" timestamp="1580234203192">
+    <state width="1318" height="172" key="GridCell.Tab.0.bottom" timestamp="1580243245886">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state width="1632" height="279" key="GridCell.Tab.0.bottom/0.236.3046.814@0.236.3046.814" timestamp="1580180623362" />
-    <state width="1318" height="172" key="GridCell.Tab.0.bottom/0.27.1366.741@0.27.1366.741" timestamp="1580234203192" />
-    <state width="1318" height="172" key="GridCell.Tab.0.center" timestamp="1580234203191">
+    <state width="1318" height="172" key="GridCell.Tab.0.bottom/0.27.1366.741@0.27.1366.741" timestamp="1580243245886" />
+    <state width="1318" height="172" key="GridCell.Tab.0.center" timestamp="1580243245885">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state width="1632" height="279" key="GridCell.Tab.0.center/0.236.3046.814@0.236.3046.814" timestamp="1580180623360" />
-    <state width="1318" height="172" key="GridCell.Tab.0.center/0.27.1366.741@0.27.1366.741" timestamp="1580234203191" />
-    <state width="1318" height="172" key="GridCell.Tab.0.left" timestamp="1580234203191">
+    <state width="1318" height="172" key="GridCell.Tab.0.center/0.27.1366.741@0.27.1366.741" timestamp="1580243245885" />
+    <state width="1318" height="172" key="GridCell.Tab.0.left" timestamp="1580243245885">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state width="1632" height="279" key="GridCell.Tab.0.left/0.236.3046.814@0.236.3046.814" timestamp="1580180623359" />
-    <state width="1318" height="172" key="GridCell.Tab.0.left/0.27.1366.741@0.27.1366.741" timestamp="1580234203191" />
-    <state width="1318" height="172" key="GridCell.Tab.0.right" timestamp="1580234203192">
+    <state width="1318" height="172" key="GridCell.Tab.0.left/0.27.1366.741@0.27.1366.741" timestamp="1580243245885" />
+    <state width="1318" height="172" key="GridCell.Tab.0.right" timestamp="1580243245886">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state width="1632" height="279" key="GridCell.Tab.0.right/0.236.3046.814@0.236.3046.814" timestamp="1580180623361" />
-    <state width="1318" height="172" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1580234203192" />
+    <state width="1318" height="172" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1580243245886" />
     <state width="1318" height="205" key="GridCell.Tab.1.bottom" timestamp="1580055879878">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
