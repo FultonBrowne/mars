@@ -13,6 +13,7 @@
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab_i" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/last-build.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/last-build.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/andromeda/mars/brain/CellBase.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/andromeda/mars/brain/CellBase.kt" afterDir="false" />
     </list>
@@ -404,7 +405,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580073141532</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="awesome thing coming...">
+      <created>1580180633584</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1580180633584</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -446,26 +454,26 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="462" y="155" key="FileChooserDialogImpl/0.27.1366.741@0.27.1366.741" timestamp="1577213552380" />
-    <state width="1632" height="279" key="GridCell.Tab.0.bottom" timestamp="1580180623362">
-      <screen x="0" y="236" width="3046" height="814" />
+    <state width="1318" height="172" key="GridCell.Tab.0.bottom" timestamp="1580183266637">
+      <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state width="1632" height="279" key="GridCell.Tab.0.bottom/0.236.3046.814@0.236.3046.814" timestamp="1580180623362" />
-    <state width="1318" height="96" key="GridCell.Tab.0.bottom/0.27.1366.741@0.27.1366.741" timestamp="1580074665428" />
-    <state width="1632" height="279" key="GridCell.Tab.0.center" timestamp="1580180623360">
-      <screen x="0" y="236" width="3046" height="814" />
+    <state width="1318" height="172" key="GridCell.Tab.0.bottom/0.27.1366.741@0.27.1366.741" timestamp="1580183266637" />
+    <state width="1318" height="172" key="GridCell.Tab.0.center" timestamp="1580183266636">
+      <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state width="1632" height="279" key="GridCell.Tab.0.center/0.236.3046.814@0.236.3046.814" timestamp="1580180623360" />
-    <state width="1318" height="96" key="GridCell.Tab.0.center/0.27.1366.741@0.27.1366.741" timestamp="1580074665428" />
-    <state width="1632" height="279" key="GridCell.Tab.0.left" timestamp="1580180623359">
-      <screen x="0" y="236" width="3046" height="814" />
+    <state width="1318" height="172" key="GridCell.Tab.0.center/0.27.1366.741@0.27.1366.741" timestamp="1580183266636" />
+    <state width="1318" height="172" key="GridCell.Tab.0.left" timestamp="1580183266635">
+      <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state width="1632" height="279" key="GridCell.Tab.0.left/0.236.3046.814@0.236.3046.814" timestamp="1580180623359" />
-    <state width="1318" height="96" key="GridCell.Tab.0.left/0.27.1366.741@0.27.1366.741" timestamp="1580074665427" />
-    <state width="1632" height="279" key="GridCell.Tab.0.right" timestamp="1580180623361">
-      <screen x="0" y="236" width="3046" height="814" />
+    <state width="1318" height="172" key="GridCell.Tab.0.left/0.27.1366.741@0.27.1366.741" timestamp="1580183266635" />
+    <state width="1318" height="172" key="GridCell.Tab.0.right" timestamp="1580183266636">
+      <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state width="1632" height="279" key="GridCell.Tab.0.right/0.236.3046.814@0.236.3046.814" timestamp="1580180623361" />
-    <state width="1318" height="96" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1580074665428" />
+    <state width="1318" height="172" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1580183266636" />
     <state width="1318" height="205" key="GridCell.Tab.1.bottom" timestamp="1580055879878">
       <screen x="0" y="27" width="1366" height="741" />
     </state>

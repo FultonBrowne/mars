@@ -8,11 +8,8 @@ abstract class CellBase(i:Int, u:Int, size:Int) {
     val data = arrayListOf<Int>()
     val cells = arrayListOf<CellBase>()
     init {
-        println("==============================================================")
         val sizeSplit =unitSize / 2
-        println("size =" + size )
         var indexParse = index
-        println("index =$index")
         while (indexParse != index + unitSize){
             indexParse = indexParse + 1
             if (indexParse <= 0){
@@ -21,7 +18,6 @@ abstract class CellBase(i:Int, u:Int, size:Int) {
                 break
             }
             else{
-                println(indexParse)
                 cells.add(Cell(index = indexParse, size = size, unitWidth = u))
             }
         }
