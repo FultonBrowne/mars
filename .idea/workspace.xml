@@ -1,21 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="mars:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d0a696d-9185-4151-9952-44a978a64348" name="Default Changelist" comment="awesome thing coming...">
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+    <list default="true" id="7d0a696d-9185-4151-9952-44a978a64348" name="Default Changelist" comment="removed most test log things">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/mars_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/mars.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/mars.main.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/build-history.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/build-history.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab_i" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/last-build.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/last-build.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/andromeda/mars/brain/CLI.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/andromeda/mars/brain/CLI.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/andromeda/mars/brain/CellBase.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/andromeda/mars/brain/CellBase.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/andromeda/mars/brain/OutputCell.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/andromeda/mars/brain/OutputCell.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,8 +76,8 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/andromeda/mars" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
@@ -95,7 +94,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/com/andromeda/mars" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.run">
+  <component name="RunManager" selected="JAR Application.mars.jar">
     <configuration name="run" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.andromeda.mars.run" />
       <module name="mars.main" />
@@ -168,13 +167,19 @@
       <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="mars.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/out/artifacts/mars_jar/mars.jar" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Application.run" />
       <item itemvalue="Gradle.mars [wrapper]" />
       <item itemvalue="Gradle.mars [build]" />
+      <item itemvalue="JAR Application.mars.jar" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JAR Application.mars.jar" />
         <item itemvalue="Application.run" />
       </list>
     </recent_temporary>
@@ -412,7 +417,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580180633584</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="removed most test log things">
+      <created>1580183694079</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1580183694080</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -422,7 +434,8 @@
     <MESSAGE value="adding files for nlp" />
     <MESSAGE value="adding files for nlp and test" />
     <MESSAGE value="awesome thing coming..." />
-    <option name="LAST_COMMIT_MESSAGE" value="awesome thing coming..." />
+    <MESSAGE value="removed most test log things" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed most test log things" />
   </component>
   <component name="WindowStateProjectService">
     <state x="314" y="267" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579297604212">
@@ -435,10 +448,18 @@
     </state>
     <state x="446" y="116" width="463" height="569" key="#com.intellij.ide.util.MemberChooser/0.27.1366.741@0.27.1366.741" timestamp="1579751740365" />
     <state x="446" y="116" width="463" height="569" key="#com.intellij.ide.util.MemberChooser/1680.209.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1579707828261" />
+    <state x="410" y="189" width="525" height="435" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1580183739450">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="410" y="189" width="525" height="435" key="#com.intellij.ide.util.TreeClassChooserDialog/0.27.1366.741@0.27.1366.741" timestamp="1580183739450" />
     <state x="359" y="67" width="647" height="668" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1577215044798">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="359" y="67" width="647" height="668" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.27.1366.741@0.27.1366.741" timestamp="1577215044798" />
+    <state x="321" y="28" width="713" height="740" key="#mars.jar" timestamp="1580183909683">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="321" y="28" width="713" height="740" key="#mars.jar/0.27.1366.741@0.27.1366.741" timestamp="1580183909683" />
     <state x="410" y="39" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog" timestamp="1579581158125">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
@@ -450,30 +471,30 @@
     <state x="264" y="27" width="828" height="741" key="CommitChangelistDialog2/0.27.1366.741@0.27.1366.741" timestamp="1579752383276" />
     <state x="0" y="236" width="1680" height="814" key="CommitChangelistDialog2/1680.209.1366.768/0.236.1680.814@0.236.1680.814" timestamp="1579828572957" />
     <state x="264" y="27" width="839" height="741" key="CommitChangelistDialog2/1680.209.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1579884960506" />
-    <state x="462" y="155" key="FileChooserDialogImpl" timestamp="1577213552380">
+    <state x="462" y="155" key="FileChooserDialogImpl" timestamp="1580183811045">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="462" y="155" key="FileChooserDialogImpl/0.27.1366.741@0.27.1366.741" timestamp="1577213552380" />
-    <state width="1318" height="172" key="GridCell.Tab.0.bottom" timestamp="1580183266637">
+    <state x="462" y="155" key="FileChooserDialogImpl/0.27.1366.741@0.27.1366.741" timestamp="1580183811045" />
+    <state width="1318" height="172" key="GridCell.Tab.0.bottom" timestamp="1580228778167">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state width="1632" height="279" key="GridCell.Tab.0.bottom/0.236.3046.814@0.236.3046.814" timestamp="1580180623362" />
-    <state width="1318" height="172" key="GridCell.Tab.0.bottom/0.27.1366.741@0.27.1366.741" timestamp="1580183266637" />
-    <state width="1318" height="172" key="GridCell.Tab.0.center" timestamp="1580183266636">
+    <state width="1318" height="172" key="GridCell.Tab.0.bottom/0.27.1366.741@0.27.1366.741" timestamp="1580228778167" />
+    <state width="1318" height="172" key="GridCell.Tab.0.center" timestamp="1580228778167">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state width="1632" height="279" key="GridCell.Tab.0.center/0.236.3046.814@0.236.3046.814" timestamp="1580180623360" />
-    <state width="1318" height="172" key="GridCell.Tab.0.center/0.27.1366.741@0.27.1366.741" timestamp="1580183266636" />
-    <state width="1318" height="172" key="GridCell.Tab.0.left" timestamp="1580183266635">
+    <state width="1318" height="172" key="GridCell.Tab.0.center/0.27.1366.741@0.27.1366.741" timestamp="1580228778167" />
+    <state width="1318" height="172" key="GridCell.Tab.0.left" timestamp="1580228778166">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state width="1632" height="279" key="GridCell.Tab.0.left/0.236.3046.814@0.236.3046.814" timestamp="1580180623359" />
-    <state width="1318" height="172" key="GridCell.Tab.0.left/0.27.1366.741@0.27.1366.741" timestamp="1580183266635" />
-    <state width="1318" height="172" key="GridCell.Tab.0.right" timestamp="1580183266636">
+    <state width="1318" height="172" key="GridCell.Tab.0.left/0.27.1366.741@0.27.1366.741" timestamp="1580228778166" />
+    <state width="1318" height="172" key="GridCell.Tab.0.right" timestamp="1580228778167">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state width="1632" height="279" key="GridCell.Tab.0.right/0.236.3046.814@0.236.3046.814" timestamp="1580180623361" />
-    <state width="1318" height="172" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1580183266636" />
+    <state width="1318" height="172" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1580228778167" />
     <state width="1318" height="205" key="GridCell.Tab.1.bottom" timestamp="1580055879878">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
@@ -494,10 +515,10 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="433" y="120" width="489" height="562" key="RollbackChangesDialog/0.27.1366.741@0.27.1366.741" timestamp="1580073635547" />
-    <state x="157" y="31" width="1052" height="737" key="SettingsEditor" timestamp="1577213888772">
+    <state x="157" y="31" width="1052" height="737" key="SettingsEditor" timestamp="1580183819086">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="157" y="31" width="1052" height="737" key="SettingsEditor/0.27.1366.741@0.27.1366.741" timestamp="1577213888772" />
+    <state x="157" y="31" width="1052" height="737" key="SettingsEditor/0.27.1366.741@0.27.1366.741" timestamp="1580183819086" />
     <state x="387" y="133" key="com.intellij.ide.util.TipDialog" timestamp="1579751650868">
       <screen x="0" y="27" width="1366" height="741" />
     </state>

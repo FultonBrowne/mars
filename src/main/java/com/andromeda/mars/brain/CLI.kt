@@ -12,7 +12,7 @@ class CLI {
         while (isRunning){
             val input = readLine()!!
             if (input == "x")isRunning = false
-            else cell.getData(input.toInt())
+            else cell.dataToCell(input.toInt())
         }
 
     }

@@ -23,14 +23,14 @@ abstract class CellBase(i:Int, u:Int, size:Int) {
         }
         println("done")
     }
-    open fun getData(newData:Int){
+    open fun dataToCell(newData:Int){
 
         data.add(newData)
         if (data.size == unitSize){
             data.forEach {
                 finalData = if (finalData == 0) it
                 else finalData.xor(it)
-                sendData(finalData)
+                dataOutOfCell(finalData)
 
             }
             data.clear()
@@ -38,10 +38,13 @@ abstract class CellBase(i:Int, u:Int, size:Int) {
         }
 
     }
-    open fun sendData(toSend:Int){
+    fun setNewDataListener(run:Runnable){
+        run.run()
+    }
+    open fun dataOutOfCell(toSend:Int){
         println(toSend)
         cells.forEach {
-            it.getData(toSend)
+            it.dataToCell(toSend)
         }
     }
 }
