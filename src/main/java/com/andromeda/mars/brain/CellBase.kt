@@ -2,16 +2,16 @@ package com.andromeda.mars.brain
 
 abstract class CellBase(i:Int, u:Int, size:Int) {
     val index = i
-    val unitSize = u
+    private val unitSize = u
     var finalData = 0
 
     val data = arrayListOf<Int>()
     val cells = arrayListOf<CellBase>()
     init {
         run{
-        val sizeSplit =unitSize / 2
         var indexParse = index
-        while (indexParse != index + unitSize){
+        if (indexParse < size){
+        while (indexParse < index + unitSize && indexParse < size){
             indexParse = indexParse + 1
             if (indexParse <= 0){
             }
@@ -19,10 +19,13 @@ abstract class CellBase(i:Int, u:Int, size:Int) {
                 return@run
             }
             else{
-                cells.add(Cell(index = indexParse, size = size, unitWidth = u))
+                cells.add(Cell(index = indexParse + 1, size = size, unitWidth = u))
+
             }
-        }
-        println("done")
+        }}
+            else return@run
+            println("done 2")
+
         }
     }
     open fun dataToCell(newData:Int){

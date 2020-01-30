@@ -6,7 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d0a696d-9185-4151-9952-44a978a64348" name="Default Changelist" comment="gradle fix">
+    <list default="true" id="7d0a696d-9185-4151-9952-44a978a64348" name="Default Changelist" comment="working on loops">
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/build-history.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/build-history.bin" afterDir="false" />
@@ -458,7 +458,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580243300404</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="working on loops">
+      <created>1580344703879</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1580344703879</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -471,7 +478,8 @@
     <MESSAGE value="removed most test log things" />
     <MESSAGE value="adding runnable to things" />
     <MESSAGE value="gradle fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="gradle fix" />
+    <MESSAGE value="working on loops" />
+    <option name="LAST_COMMIT_MESSAGE" value="working on loops" />
   </component>
   <component name="WindowStateProjectService">
     <state x="141" y="55" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580234135289">
@@ -511,26 +519,26 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="462" y="155" key="FileChooserDialogImpl/0.27.1366.741@0.27.1366.741" timestamp="1580183811045" />
-    <state width="1632" height="278" key="GridCell.Tab.0.bottom" timestamp="1580344612954">
-      <screen x="0" y="236" width="3046" height="814" />
+    <state width="1318" height="171" key="GridCell.Tab.0.bottom" timestamp="1580347514634">
+      <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1632" height="278" key="GridCell.Tab.0.bottom/0.236.3046.814@0.236.3046.814" timestamp="1580344612954" />
-    <state width="1318" height="172" key="GridCell.Tab.0.bottom/0.27.1366.741@0.27.1366.741" timestamp="1580243291604" />
-    <state width="1632" height="278" key="GridCell.Tab.0.center" timestamp="1580344612954">
-      <screen x="0" y="236" width="3046" height="814" />
+    <state width="1632" height="278" key="GridCell.Tab.0.bottom/0.236.3046.814@0.236.3046.814" timestamp="1580344690322" />
+    <state width="1318" height="171" key="GridCell.Tab.0.bottom/0.27.1366.741@0.27.1366.741" timestamp="1580347514634" />
+    <state width="1318" height="171" key="GridCell.Tab.0.center" timestamp="1580347514633">
+      <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1632" height="278" key="GridCell.Tab.0.center/0.236.3046.814@0.236.3046.814" timestamp="1580344612954" />
-    <state width="1318" height="172" key="GridCell.Tab.0.center/0.27.1366.741@0.27.1366.741" timestamp="1580243291603" />
-    <state width="1632" height="278" key="GridCell.Tab.0.left" timestamp="1580344612953">
-      <screen x="0" y="236" width="3046" height="814" />
+    <state width="1632" height="278" key="GridCell.Tab.0.center/0.236.3046.814@0.236.3046.814" timestamp="1580344690321" />
+    <state width="1318" height="171" key="GridCell.Tab.0.center/0.27.1366.741@0.27.1366.741" timestamp="1580347514633" />
+    <state width="1318" height="171" key="GridCell.Tab.0.left" timestamp="1580347514633">
+      <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1632" height="278" key="GridCell.Tab.0.left/0.236.3046.814@0.236.3046.814" timestamp="1580344612953" />
-    <state width="1318" height="172" key="GridCell.Tab.0.left/0.27.1366.741@0.27.1366.741" timestamp="1580243291603" />
-    <state width="1632" height="278" key="GridCell.Tab.0.right" timestamp="1580344612954">
-      <screen x="0" y="236" width="3046" height="814" />
+    <state width="1632" height="278" key="GridCell.Tab.0.left/0.236.3046.814@0.236.3046.814" timestamp="1580344690321" />
+    <state width="1318" height="171" key="GridCell.Tab.0.left/0.27.1366.741@0.27.1366.741" timestamp="1580347514633" />
+    <state width="1318" height="171" key="GridCell.Tab.0.right" timestamp="1580347514633">
+      <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1632" height="278" key="GridCell.Tab.0.right/0.236.3046.814@0.236.3046.814" timestamp="1580344612954" />
-    <state width="1318" height="172" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1580243291603" />
+    <state width="1632" height="278" key="GridCell.Tab.0.right/0.236.3046.814@0.236.3046.814" timestamp="1580344690322" />
+    <state width="1318" height="171" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1580347514633" />
     <state width="1318" height="205" key="GridCell.Tab.1.bottom" timestamp="1580055879878">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
