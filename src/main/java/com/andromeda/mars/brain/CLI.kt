@@ -6,13 +6,13 @@ class CLI {
         val size = readLine()!!.toInt()
         println("communication width???")
         val inSize = readLine()!!.toInt()
-        val cell = Cell(0, size, inSize)
+        val cell = Generate().main(size, inSize)
         println("type 'x' to exit")
         var isRunning = true
         while (isRunning){
             val input = readLine()!!
             if (input == "x")isRunning = false
-            else cell.dataToCell(input.toInt())
+            else cell[0].dataToCell(input.toInt())
         }
 
     }

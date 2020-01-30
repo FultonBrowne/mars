@@ -1,45 +1,29 @@
 package com.andromeda.mars.brain
 
-abstract class CellBase(i:Int, u:Int, size:Int) {
+abstract class CellBase(i:Int, u:Int) {
     val index = i
+    var isRunning = true
     private val unitSize = u
     var finalData = 0
 
     private val data = arrayListOf<Int>()
-    private val cells = arrayListOf<CellBase>()
-    init {
-        run{
-        var indexParse = index
-        if (indexParse + (unitSize * 2) < size){
-        while (indexParse < index + unitSize  && indexParse + (unitSize* 2) < size ){
-            indexParse += 1
-            if (indexParse <= 0 ||indexParse+ (unitSize *  2) == size){
-            }
-            else if(indexParse + (unitSize *  2)  >= size  ) {
-                return@run
-            }
-            else{
-                cells.add(Cell(index = indexParse + (unitSize * 2) , size = size, unitWidth = u))
-                println("done 121")
+     val cells = arrayListOf<CellBase>()
 
-            }
-        }}
-            else return@run
-
-        }
-    }
     open fun dataToCell(newData:Int){
-
-        data.add(newData)
+        if (isRunning)data.add(newData)
+        else return
         if (data.size == unitSize){
-            data.forEach {
-                finalData = if (finalData == 0) it
-                else finalData.xor(it)
-                dataOutOfCell(finalData)
+            isRunning = false
+                val newData2 = data
 
-            }
-            data.clear()
+                for (it in newData2) {
+                    finalData = if (finalData == 0) it
+                    else finalData.xor(it)
+                    dataOutOfCell(finalData)
 
+                }
+                data.clear()
+            isRunning = true
         }
 
     }
@@ -48,8 +32,13 @@ abstract class CellBase(i:Int, u:Int, size:Int) {
     }
     open fun dataOutOfCell(toSend:Int){
         println(toSend)
-        cells.forEach {
-            it.dataToCell(toSend)
+        try {
+            cells.forEach {
+                it.dataToCell(toSend)
+            }
+        }
+        catch (e:Exception){
+            e.printStackTrace()
         }
     }
 }
