@@ -5,26 +5,26 @@ abstract class CellBase(i:Int, u:Int, size:Int) {
     private val unitSize = u
     var finalData = 0
 
-    val data = arrayListOf<Int>()
-    val cells = arrayListOf<CellBase>()
+    private val data = arrayListOf<Int>()
+    private val cells = arrayListOf<CellBase>()
     init {
         run{
         var indexParse = index
-        if (indexParse < size){
-        while (indexParse < index + unitSize && indexParse < size){
-            indexParse = indexParse + 1
-            if (indexParse <= 0){
+        if (indexParse + (unitSize * 2) < size){
+        while (indexParse < index + unitSize  && indexParse + (unitSize* 2) < size ){
+            indexParse += 1
+            if (indexParse <= 0 ||indexParse+ (unitSize *  2) == size){
             }
-            else if(indexParse == size) {
+            else if(indexParse + (unitSize *  2)  >= size  ) {
                 return@run
             }
             else{
-                cells.add(Cell(index = indexParse + 1, size = size, unitWidth = u))
+                cells.add(Cell(index = indexParse + (unitSize * 2) , size = size, unitWidth = u))
+                println("done 121")
 
             }
         }}
             else return@run
-            println("done 2")
 
         }
     }
