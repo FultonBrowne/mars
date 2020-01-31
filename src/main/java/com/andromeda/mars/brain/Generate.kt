@@ -11,13 +11,15 @@ class Generate {
         val mainNum = unitSize / 2
         cellList.forEachIndexed { index, cellBase ->
             var newIndex = index - mainNum
-            while (newIndex < index + mainNum + 1){
+            while (newIndex < index + mainNum){
                 try {
-                    if (newIndex != index)
+                    if (newIndex != index){
                     cellBase.cells.add(cellList[newIndex])
+                    }
 
                 }
                 catch (e:Exception){
+                    e.printStackTrace()
                 }
                 newIndex += 1
             }

@@ -24,15 +24,29 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d0a696d-9185-4151-9952-44a978a64348" name="Default Changelist" comment="149 for 20 - I know what it means you dont - sorry">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/andromeda/mars/brain/Generate.kt" afterDir="false" />
+    <list default="true" id="7d0a696d-9185-4151-9952-44a978a64348" name="Default Changelist" comment="and we working">
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/andromeda/mars/brain/CLI.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/andromeda/mars/brain/CLI.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/andromeda/mars/brain/Cell.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/andromeda/mars/brain/Cell.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/build-history.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/build-history.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/last-build.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/last-build.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/mars121jar-classes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/mars121jar-classes.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/mars-1.2.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/mars-1.2.1.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/andromeda/mars/brain/CellBase.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/andromeda/mars/brain/CellBase.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/andromeda/mars/brain/InputCell.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/andromeda/mars/brain/OutputCell.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/andromeda/mars/brain/Generate.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/andromeda/mars/brain/Generate.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -501,7 +515,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580408388497</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="and we working">
+      <created>1580428004055</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1580428004056</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -532,7 +553,8 @@
     <MESSAGE value="gradle fix" />
     <MESSAGE value="working on loops" />
     <MESSAGE value="149 for 20 - I know what it means you dont - sorry" />
-    <option name="LAST_COMMIT_MESSAGE" value="149 for 20 - I know what it means you dont - sorry" />
+    <MESSAGE value="and we working" />
+    <option name="LAST_COMMIT_MESSAGE" value="and we working" />
   </component>
   <component name="WindowStateProjectService">
     <state x="141" y="55" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580234135289">
@@ -572,26 +594,26 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="461" y="155" key="FileChooserDialogImpl/0.27.1366.741@0.27.1366.741" timestamp="1580400754423" />
-    <state width="1632" height="293" key="GridCell.Tab.0.bottom" timestamp="1580427918017">
-      <screen x="0" y="236" width="3046" height="814" />
+    <state width="1318" height="278" key="GridCell.Tab.0.bottom" timestamp="1580500838436">
+      <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state width="1632" height="293" key="GridCell.Tab.0.bottom/0.236.3046.814@0.236.3046.814" timestamp="1580427918017" />
-    <state width="1318" height="182" key="GridCell.Tab.0.bottom/0.27.1366.741@0.27.1366.741" timestamp="1580408403075" />
-    <state width="1632" height="293" key="GridCell.Tab.0.center" timestamp="1580427918017">
-      <screen x="0" y="236" width="3046" height="814" />
+    <state width="1318" height="278" key="GridCell.Tab.0.bottom/0.27.1366.741@0.27.1366.741" timestamp="1580500838436" />
+    <state width="1318" height="278" key="GridCell.Tab.0.center" timestamp="1580500838434">
+      <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state width="1632" height="293" key="GridCell.Tab.0.center/0.236.3046.814@0.236.3046.814" timestamp="1580427918017" />
-    <state width="1318" height="182" key="GridCell.Tab.0.center/0.27.1366.741@0.27.1366.741" timestamp="1580408403075" />
-    <state width="1632" height="293" key="GridCell.Tab.0.left" timestamp="1580427918016">
-      <screen x="0" y="236" width="3046" height="814" />
+    <state width="1318" height="278" key="GridCell.Tab.0.center/0.27.1366.741@0.27.1366.741" timestamp="1580500838434" />
+    <state width="1318" height="278" key="GridCell.Tab.0.left" timestamp="1580500838434">
+      <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state width="1632" height="293" key="GridCell.Tab.0.left/0.236.3046.814@0.236.3046.814" timestamp="1580427918016" />
-    <state width="1318" height="182" key="GridCell.Tab.0.left/0.27.1366.741@0.27.1366.741" timestamp="1580408403074" />
-    <state width="1632" height="293" key="GridCell.Tab.0.right" timestamp="1580427918017">
-      <screen x="0" y="236" width="3046" height="814" />
+    <state width="1318" height="278" key="GridCell.Tab.0.left/0.27.1366.741@0.27.1366.741" timestamp="1580500838434" />
+    <state width="1318" height="278" key="GridCell.Tab.0.right" timestamp="1580500838435">
+      <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state width="1632" height="293" key="GridCell.Tab.0.right/0.236.3046.814@0.236.3046.814" timestamp="1580427918017" />
-    <state width="1318" height="182" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1580408403075" />
+    <state width="1318" height="278" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1580500838435" />
     <state width="1318" height="205" key="GridCell.Tab.1.bottom" timestamp="1580055879878">
       <screen x="0" y="27" width="1366" height="741" />
     </state>

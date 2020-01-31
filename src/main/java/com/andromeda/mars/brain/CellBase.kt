@@ -10,10 +10,11 @@ abstract class CellBase(i:Int, u:Int) {
      val cells = arrayListOf<CellBase>()
 
     open fun dataToCell(newData:Int){
-        if (isRunning)data.add(newData)
+        if(isRunning)data.add(newData)
         else return
         if (data.size == unitSize){
             isRunning = false
+            println(cells.size)
                 val newData2 = data
 
                 for (it in newData2) {
