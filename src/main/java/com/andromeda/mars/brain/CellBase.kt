@@ -29,7 +29,6 @@ abstract class CellBase(i:Int, u:Int) {
 
     }
     fun setNewDataListener(run:Runnable){
-        run.run()
     }
     open fun dataOutOfCell(toSend:Int){
         println(toSend)
