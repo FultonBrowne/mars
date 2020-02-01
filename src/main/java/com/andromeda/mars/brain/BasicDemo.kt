@@ -5,7 +5,7 @@ import java.util.*
 class BasicDemo {
     fun main(){
         val cell = Generate().main(700, 4)
-        var inputThread = Thread{
+        val inputThread = Thread{
             val time = Timer()
             val refresh = object : TimerTask() {
                 override fun run() {
@@ -13,7 +13,7 @@ class BasicDemo {
                 }
             }
             time.schedule(refresh, 0, 18000)
-
         }
+        inputThread.start()
     }
 }
