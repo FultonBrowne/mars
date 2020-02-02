@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.bytedeco:libdc1394:linux-arm64:2.2.6-1.5.2">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.bytedeco/libdc1394/2.2.6-1.5.2/39b84e1e926a565185eb0fd0e16a3b58d4bffaa7/libdc1394-2.2.6-1.5.2-linux-arm64.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.bytedeco/libdc1394/2.2.6-1.5.2/e2cc9dd4615bba60fc860af4c960d0c107d6ad06/libdc1394-2.2.6-1.5.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

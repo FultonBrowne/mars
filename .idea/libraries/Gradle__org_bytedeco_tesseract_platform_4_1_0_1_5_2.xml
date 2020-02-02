@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.bytedeco:tesseract-platform:4.1.0-1.5.2">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.bytedeco/tesseract-platform/4.1.0-1.5.2/4f796832e8e5b0f9674538fecbd95f1927e1c1dd/tesseract-platform-4.1.0-1.5.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.bytedeco/tesseract-platform/4.1.0-1.5.2/3274b4cbf403bce846290a06a18a2a7b6cb080b0/tesseract-platform-4.1.0-1.5.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

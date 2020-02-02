@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.bytedeco:artoolkitplus:linux-x86:2.3.1-1.5.2">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.bytedeco/artoolkitplus/2.3.1-1.5.2/5854034c5cecea2a1fafed7bb30316a3856288a9/artoolkitplus-2.3.1-1.5.2-linux-x86.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.bytedeco/artoolkitplus/2.3.1-1.5.2/c82c2394866ffb28240e255158fbf44f40c4b658/artoolkitplus-2.3.1-1.5.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

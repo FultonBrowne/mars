@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.bytedeco:openblas:linux-ppc64le:0.3.7-1.5.2">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.bytedeco/openblas/0.3.7-1.5.2/6a47becc07c72bd1b0466ff2d36f92b0667dc649/openblas-0.3.7-1.5.2-linux-ppc64le.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.bytedeco/openblas/0.3.7-1.5.2/51e748f18f31bc1d8c542aae70ada9d2cd3b0b46/openblas-0.3.7-1.5.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
