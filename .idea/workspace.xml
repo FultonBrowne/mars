@@ -25,9 +25,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7d0a696d-9185-4151-9952-44a978a64348" name="Default Changelist" comment="working on labeling an storing data">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_aparapi_aparapi_2_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_aparapi_aparapi_jni_1_4_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_bcel_bcel_6_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_scala_lang_scala_library_2_13_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/andromeda/mars/util/RunOnGpu.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/mars.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/mars.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/mars.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/mars.test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/andromeda/mars/brain/CellBase.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/andromeda/mars/brain/CellBase.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/andromeda/mars/models/StructuredData.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/andromeda/mars/models/StructuredData.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,8 +82,8 @@
       <list>
         <option value="Kotlin File" />
         <option value="Class" />
-        <option value="Kotlin Class" />
         <option value="Kotlin Script" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -539,7 +544,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580677241457</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="working on labeling an storing data">
+      <created>1580678848423</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1580678848423</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

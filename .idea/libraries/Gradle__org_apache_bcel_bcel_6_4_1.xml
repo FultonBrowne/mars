@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.apache.bcel:bcel:6.4.1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.bcel/bcel/6.4.1/96ea7ecd3d0058d73f7794f4752030cf9ff19a5/bcel-6.4.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.bcel/bcel/6.4.1/15bb352a8a3078255c8255efdbdb931d57d78dc9/bcel-6.4.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
