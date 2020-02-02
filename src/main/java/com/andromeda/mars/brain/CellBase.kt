@@ -1,11 +1,18 @@
+@file:Suppress("MemberVisibilityCanBePrivate")
+
 package com.andromeda.mars.brain
+
+import com.andromeda.mars.models.StructuredData
 
 abstract class CellBase(u: Int) {
     var isRunning = true
     private val unitSize = u
     private var finalData = 0
     private val dataForMatch = arrayListOf<Int>()
-    val structuredData = 0
+    val structuredData = arrayListOf<StructuredData>()
+    var useDefaultOperation = true
+    var dataScript = ""
+
 
     private val data = arrayListOf<Int>()
      val cells = arrayListOf<CellBase>()
@@ -34,14 +41,20 @@ abstract class CellBase(u: Int) {
         else return
         if (dataForMatch.size == unitSize){
             isRunning = false
-            val newData2 = dataForMatch
+            for (i in structuredData) {
+                if (i.label == label){
+                    i.addData(dataForMatch, this)
+                    dataForMatch.clear()
+                    isRunning = true
+                    return
+                }
+            }
 
-            data.clear()
-            isRunning = true
+
         }
+        dataForMatch.clear()
+        isRunning = true
 
-    }
-    fun setNewDataListener(run:Runnable){
     }
     open fun dataOutOfCell(toSend:Int){
         println(toSend)
@@ -53,5 +66,15 @@ abstract class CellBase(u: Int) {
         catch (e:Exception){
             e.printStackTrace()
         }
+    }
+    fun operation(newData: Int, oldData:Int): Int {
+        if (!useDefaultOperation){
+            return scriptedOperation()
+        }
+        return oldData.xor(newData)
+    }
+    protected fun scriptedOperation(): Int{
+        return 0
+
     }
 }

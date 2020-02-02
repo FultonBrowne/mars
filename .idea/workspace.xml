@@ -24,11 +24,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d0a696d-9185-4151-9952-44a978a64348" name="Default Changelist" comment="camera stuff">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/andromeda/mars/models/StructuredData.kt" afterDir="false" />
+    <list default="true" id="7d0a696d-9185-4151-9952-44a978a64348" name="Default Changelist" comment="working on labeling an storing data">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/andromeda/mars/brain/Cell.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/andromeda/mars/brain/Cell.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/andromeda/mars/brain/CellBase.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/andromeda/mars/brain/CellBase.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/andromeda/mars/models/StructuredData.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/andromeda/mars/models/StructuredData.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -533,7 +532,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580668598402</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="working on labeling an storing data">
+      <created>1580677241457</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1580677241457</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -567,7 +573,8 @@
     <MESSAGE value="and we working" />
     <MESSAGE value="working on some demos" />
     <MESSAGE value="camera stuff" />
-    <option name="LAST_COMMIT_MESSAGE" value="camera stuff" />
+    <MESSAGE value="working on labeling an storing data" />
+    <option name="LAST_COMMIT_MESSAGE" value="working on labeling an storing data" />
   </component>
   <component name="WindowStateProjectService">
     <state x="141" y="55" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580234135289">
@@ -668,9 +675,10 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="347" y="174" width="672" height="677" key="run.anything.popup/0.27.1366.741@0.27.1366.741" timestamp="1577213555777" />
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1579707803226">
-      <screen x="0" y="27" width="1366" height="741" />
+    <state x="772" y="304" width="1499" height="745" key="search.everywhere.popup" timestamp="1580678786045">
+      <screen x="0" y="236" width="3046" height="814" />
     </state>
+    <state x="772" y="304" width="1499" height="745" key="search.everywhere.popup/0.236.3046.814@0.236.3046.814" timestamp="1580678786045" />
     <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/1680.209.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1579707803226" />
   </component>
 </project>

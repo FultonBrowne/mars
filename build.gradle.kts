@@ -23,6 +23,8 @@ dependencies {
     implementation( group = "org.bytedeco", name =  "javacv-platform", version = "1.5.2")
     implementation (group = "org.apache.opennlp", name = "opennlp-tools", version= "1.9.1")
     implementation (group= "com.google.code.gson", name= "gson", version= "2.8.6")
+    implementation( group = "com.aparapi", name = "aparapi", version ="2.0.0")
+
     testImplementation(group = "junit", name = "junit", version = "4.12")
 
 }
