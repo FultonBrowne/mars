@@ -49,11 +49,14 @@ abstract class CellBase(u: Int) {
                     return
                 }
             }
+            structuredData.add(StructuredData(label, dataForMatch))
+            dataForMatch.clear()
+            isRunning = true
+
 
 
         }
-        dataForMatch.clear()
-        isRunning = true
+
 
     }
     open fun dataOutOfCell(toSend:Int){
