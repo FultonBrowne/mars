@@ -1,10 +1,11 @@
 package com.andromeda.mars.brain
 
-abstract class CellBase(i:Int, u:Int) {
-    val index = i
+abstract class CellBase(u: Int) {
     var isRunning = true
     private val unitSize = u
-    var finalData = 0
+    private var finalData = 0
+    private val dataForMatch = arrayListOf<Int>()
+    val structuredData = 0
 
     private val data = arrayListOf<Int>()
      val cells = arrayListOf<CellBase>()
@@ -24,6 +25,18 @@ abstract class CellBase(i:Int, u:Int) {
 
                 }
                 data.clear()
+            isRunning = true
+        }
+
+    }
+    open fun dataToCell(newData:Int, label:Int){
+        if(isRunning)dataForMatch.add(newData)
+        else return
+        if (dataForMatch.size == unitSize){
+            isRunning = false
+            val newData2 = dataForMatch
+
+            data.clear()
             isRunning = true
         }
 

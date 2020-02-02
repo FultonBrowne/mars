@@ -24,165 +24,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d0a696d-9185-4151-9952-44a978a64348" name="Default Changelist" comment="working on some demos">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_artoolkitplus_2_3_1_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_artoolkitplus_android_arm64_2_3_1_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_artoolkitplus_android_arm_2_3_1_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_artoolkitplus_android_x86_2_3_1_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_artoolkitplus_android_x86_64_2_3_1_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_artoolkitplus_linux_arm64_2_3_1_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_artoolkitplus_linux_armhf_2_3_1_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_artoolkitplus_linux_ppc64le_2_3_1_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_artoolkitplus_linux_x86_2_3_1_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_artoolkitplus_linux_x86_64_2_3_1_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_artoolkitplus_macosx_x86_64_2_3_1_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_artoolkitplus_platform_2_3_1_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_artoolkitplus_windows_x86_2_3_1_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_artoolkitplus_windows_x86_64_2_3_1_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_ffmpeg_4_2_1_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_ffmpeg_android_arm64_4_2_1_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_ffmpeg_android_arm_4_2_1_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_ffmpeg_android_x86_4_2_1_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_ffmpeg_android_x86_64_4_2_1_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_ffmpeg_linux_arm64_4_2_1_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_ffmpeg_linux_armhf_4_2_1_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_ffmpeg_linux_ppc64le_4_2_1_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_ffmpeg_linux_x86_4_2_1_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_ffmpeg_linux_x86_64_4_2_1_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_ffmpeg_macosx_x86_64_4_2_1_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_ffmpeg_platform_4_2_1_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_ffmpeg_windows_x86_4_2_1_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_ffmpeg_windows_x86_64_4_2_1_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_flandmark_1_07_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_flandmark_android_arm64_1_07_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_flandmark_android_arm_1_07_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_flandmark_android_x86_1_07_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_flandmark_android_x86_64_1_07_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_flandmark_linux_arm64_1_07_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_flandmark_linux_armhf_1_07_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_flandmark_linux_ppc64le_1_07_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_flandmark_linux_x86_1_07_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_flandmark_linux_x86_64_1_07_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_flandmark_macosx_x86_64_1_07_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_flandmark_platform_1_07_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_flandmark_windows_x86_1_07_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_flandmark_windows_x86_64_1_07_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_flycapture_2_13_3_31_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_flycapture_linux_arm64_2_13_3_31_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_flycapture_linux_armhf_2_13_3_31_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_flycapture_linux_x86_2_13_3_31_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_flycapture_linux_x86_64_2_13_3_31_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_flycapture_platform_2_13_3_31_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_flycapture_windows_x86_2_13_3_31_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_flycapture_windows_x86_64_2_13_3_31_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_javacpp_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_javacv_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_javacv_platform_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_leptonica_1_78_0_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_leptonica_android_arm64_1_78_0_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_leptonica_android_arm_1_78_0_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_leptonica_android_x86_1_78_0_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_leptonica_android_x86_64_1_78_0_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_leptonica_linux_arm64_1_78_0_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_leptonica_linux_armhf_1_78_0_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_leptonica_linux_ppc64le_1_78_0_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_leptonica_linux_x86_1_78_0_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_leptonica_linux_x86_64_1_78_0_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_leptonica_macosx_x86_64_1_78_0_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_leptonica_platform_1_78_0_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_leptonica_windows_x86_1_78_0_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_leptonica_windows_x86_64_1_78_0_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_libdc1394_2_2_6_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_libdc1394_linux_arm64_2_2_6_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_libdc1394_linux_armhf_2_2_6_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_libdc1394_linux_ppc64le_2_2_6_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_libdc1394_linux_x86_2_2_6_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_libdc1394_linux_x86_64_2_2_6_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_libdc1394_macosx_x86_64_2_2_6_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_libdc1394_platform_2_2_6_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_libdc1394_windows_x86_2_2_6_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_libdc1394_windows_x86_64_2_2_6_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_libfreenect2_0_2_0_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_libfreenect2_linux_x86_0_2_0_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_libfreenect2_linux_x86_64_0_2_0_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_libfreenect2_macosx_x86_64_0_2_0_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_libfreenect2_platform_0_2_0_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_libfreenect2_windows_x86_64_0_2_0_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_libfreenect_0_5_7_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_libfreenect_linux_arm64_0_5_7_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_libfreenect_linux_armhf_0_5_7_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_libfreenect_linux_ppc64le_0_5_7_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_libfreenect_linux_x86_0_5_7_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_libfreenect_linux_x86_64_0_5_7_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_libfreenect_macosx_x86_64_0_5_7_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_libfreenect_platform_0_5_7_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_libfreenect_windows_x86_0_5_7_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_libfreenect_windows_x86_64_0_5_7_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_librealsense2_2_29_0_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_librealsense2_linux_x86_2_29_0_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_librealsense2_linux_x86_64_2_29_0_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_librealsense2_macosx_x86_64_2_29_0_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_librealsense2_platform_2_29_0_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_librealsense2_windows_x86_2_29_0_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_librealsense2_windows_x86_64_2_29_0_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_librealsense_1_12_4_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_librealsense_linux_x86_1_12_4_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_librealsense_linux_x86_64_1_12_4_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_librealsense_macosx_x86_64_1_12_4_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_librealsense_platform_1_12_4_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_librealsense_windows_x86_1_12_4_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_librealsense_windows_x86_64_1_12_4_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_openblas_0_3_7_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_openblas_android_arm64_0_3_7_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_openblas_android_arm_0_3_7_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_openblas_android_x86_0_3_7_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_openblas_android_x86_64_0_3_7_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_openblas_ios_arm64_0_3_7_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_openblas_ios_x86_64_0_3_7_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_openblas_linux_arm64_0_3_7_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_openblas_linux_armhf_0_3_7_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_openblas_linux_ppc64le_0_3_7_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_openblas_linux_x86_0_3_7_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_openblas_linux_x86_64_0_3_7_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_openblas_macosx_x86_64_0_3_7_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_openblas_platform_0_3_7_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_openblas_windows_x86_0_3_7_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_openblas_windows_x86_64_0_3_7_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_opencv_4_1_2_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_opencv_android_arm64_4_1_2_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_opencv_android_arm_4_1_2_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_opencv_android_x86_4_1_2_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_opencv_android_x86_64_4_1_2_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_opencv_ios_arm64_4_1_2_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_opencv_ios_x86_64_4_1_2_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_opencv_linux_arm64_4_1_2_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_opencv_linux_armhf_4_1_2_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_opencv_linux_ppc64le_4_1_2_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_opencv_linux_x86_4_1_2_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_opencv_linux_x86_64_4_1_2_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_opencv_macosx_x86_64_4_1_2_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_opencv_platform_4_1_2_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_opencv_windows_x86_4_1_2_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_opencv_windows_x86_64_4_1_2_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_tesseract_4_1_0_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_tesseract_android_arm64_4_1_0_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_tesseract_android_arm_4_1_0_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_tesseract_android_x86_4_1_0_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_tesseract_android_x86_64_4_1_0_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_tesseract_linux_arm64_4_1_0_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_tesseract_linux_armhf_4_1_0_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_tesseract_linux_ppc64le_4_1_0_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_tesseract_linux_x86_4_1_0_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_tesseract_linux_x86_64_4_1_0_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_tesseract_macosx_x86_64_4_1_0_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_tesseract_platform_4_1_0_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_tesseract_windows_x86_4_1_0_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_tesseract_windows_x86_64_4_1_0_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_videoinput_0_200_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_videoinput_platform_0_200_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_videoinput_windows_x86_0_200_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bytedeco_videoinput_windows_x86_64_0_200_1_5_2.xml" afterDir="false" />
+    <list default="true" id="7d0a696d-9185-4151-9952-44a978a64348" name="Default Changelist" comment="camera stuff">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/andromeda/mars/models/StructuredData.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/andromeda/mars/brain/Cell.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/andromeda/mars/brain/Cell.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/andromeda/mars/brain/CellBase.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/andromeda/mars/brain/CellBase.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -233,6 +79,7 @@
         <option value="Kotlin File" />
         <option value="Class" />
         <option value="Kotlin Class" />
+        <option value="Kotlin Script" />
       </list>
     </option>
   </component>
@@ -679,7 +526,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580517375526</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="camera stuff">
+      <created>1580668598402</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1580668598402</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -712,7 +566,8 @@
     <MESSAGE value="149 for 20 - I know what it means you dont - sorry" />
     <MESSAGE value="and we working" />
     <MESSAGE value="working on some demos" />
-    <option name="LAST_COMMIT_MESSAGE" value="working on some demos" />
+    <MESSAGE value="camera stuff" />
+    <option name="LAST_COMMIT_MESSAGE" value="camera stuff" />
   </component>
   <component name="WindowStateProjectService">
     <state x="141" y="55" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580234135289">
