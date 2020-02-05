@@ -3,6 +3,7 @@
 package com.andromeda.mars.brain
 
 import com.andromeda.mars.models.StructuredData
+import kotlin.math.absoluteValue
 
 abstract class CellBase(u: Int) {
     var isRunning = true
@@ -59,6 +60,29 @@ abstract class CellBase(u: Int) {
 
 
     }
+    fun recognize(newData:ArrayList<Int>): Int {
+        val parsed = arrayListOf<StructuredData>()
+        structuredData.forEach {
+            val intArray = arrayListOf<Int>()
+            it.data.forEachIndexed { index, i ->
+                intArray.add((i - newData[index]).absoluteValue)
+            }
+            parsed.add(StructuredData(it.label, intArray))
+        }
+        var lowest = 0
+        var lowestVal = Int.MAX_VALUE
+        parsed.forEach{
+            var current = 0
+            it.data.forEach {
+                current += it
+            }
+            if (current < lowestVal){
+                lowest = it.label
+                lowestVal = current
+            }
+        }
+        return lowest
+    }
     open fun dataOutOfCell(toSend:Int){
         println(toSend)
         try {
@@ -76,8 +100,10 @@ abstract class CellBase(u: Int) {
         }
         return oldData.xor(newData)
     }
+    fun freeze(){
+
+    }
     protected fun scriptedOperation(): Int{
         return 0
-
     }
 }
