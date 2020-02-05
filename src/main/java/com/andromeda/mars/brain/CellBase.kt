@@ -60,6 +60,29 @@ abstract class CellBase(u: Int) {
 
 
     }
+    open fun dataToCell(newData:ArrayList<Int>, label:Int){
+        if(isRunning)dataForMatch.addAll(newData)
+        else return
+        if (dataForMatch.size == unitSize){
+            isRunning = false
+            for (i in structuredData) {
+                if (i.label == label){
+                    i.addData(dataForMatch, this)
+                    dataForMatch.clear()
+                    isRunning = true
+                    return
+                }
+            }
+            structuredData.add(StructuredData(label, dataForMatch))
+            dataForMatch.clear()
+            isRunning = true
+
+
+
+        }
+
+
+    }
     fun recognize(newData:ArrayList<Int>): Int {
         val parsed = arrayListOf<StructuredData>()
         structuredData.forEach {
