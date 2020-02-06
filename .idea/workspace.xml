@@ -24,9 +24,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d0a696d-9185-4151-9952-44a978a64348" name="Default Changelist" comment="added model recognition system">
+    <list default="true" id="7d0a696d-9185-4151-9952-44a978a64348" name="Default Changelist" comment="added array add support">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/andromeda/mars/readers/GetReader.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/andromeda/mars/brain/CellBase.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/andromeda/mars/brain/CellBase.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/andromeda/mars/scripts/VoiceScript.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/andromeda/mars/scripts/VoiceScript.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -566,7 +568,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580861618708</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="added array add support">
+      <created>1580946520443</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1580946520443</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -604,7 +613,8 @@
     <MESSAGE value="gpu stuff" />
     <MESSAGE value="more model things" />
     <MESSAGE value="added model recognition system" />
-    <option name="LAST_COMMIT_MESSAGE" value="added model recognition system" />
+    <MESSAGE value="added array add support" />
+    <option name="LAST_COMMIT_MESSAGE" value="added array add support" />
   </component>
   <component name="WindowStateProjectService">
     <state x="141" y="55" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580234135289">
