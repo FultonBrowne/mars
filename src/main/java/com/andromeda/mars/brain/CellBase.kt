@@ -81,9 +81,30 @@ abstract class CellBase(u: Int) {
 
         }
 
+    }
+    open fun dataToCell(newData:ArrayList<Int>, label:String){
+        if(isRunning)dataForMatch.addAll(newData)
+        else return
+        if (dataForMatch.size == unitSize){
+            isRunning = false
+            for (i in structuredData) {
+                if (i.label == label){
+                    i.addData(dataForMatch, this)
+                    dataForMatch.clear()
+                    isRunning = true
+                    return
+                }
+            }
+            structuredData.add(StructuredData(label, dataForMatch))
+            dataForMatch.clear()
+            isRunning = true
+
+
+
+        }
 
     }
-    fun recognize(newData:ArrayList<Int>): Int {
+    fun recognize(newData:ArrayList<Int>): Any? {
         val parsed = arrayListOf<StructuredData>()
         structuredData.forEach {
             val intArray = arrayListOf<Int>()
@@ -92,7 +113,7 @@ abstract class CellBase(u: Int) {
             }
             parsed.add(StructuredData(it.label, intArray))
         }
-        var lowest = 0
+        var lowest: Any? = null
         var lowestVal = Int.MAX_VALUE
         parsed.forEach{
             var current = 0
