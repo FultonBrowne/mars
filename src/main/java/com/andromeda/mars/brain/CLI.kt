@@ -6,7 +6,7 @@ class CLI {
         val size = readLine()!!.toInt()
         println("communication width???")
         val inSize = readLine()!!.toInt()
-        val cell = Generate().main(size, inSize)
+        val cell = Generate().singleTrain(size, inSize)
         println("type 'x' to exit")
         var isRunning = true
         while (isRunning){

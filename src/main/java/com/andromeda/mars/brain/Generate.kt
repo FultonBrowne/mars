@@ -1,11 +1,11 @@
 package com.andromeda.mars.brain
 
 class Generate {
-    fun main(size:Int, unitSize:Int): ArrayList<CellBase> {
+    fun singleTrain(size:Int, unitSize:Int): ArrayList<CellBase> {
         val cellList = arrayListOf<CellBase>()
         var mainInt = 0
        while (mainInt < size){
-           cellList.add(Cell(mainInt, unitSize))
+           cellList.add(CellBase(unitSize))
            mainInt += 1
        }
         val mainNum = unitSize / 2
@@ -25,5 +25,8 @@ class Generate {
             }
         }
         return cellList
+    }
+    fun amlModel(unit:Int): CellBase {
+        return CellBase(unit)
     }
 }
