@@ -5,7 +5,7 @@ package com.andromeda.mars.brain
 import com.andromeda.mars.models.StructuredData
 import kotlin.math.absoluteValue
 
-class CellBase(u: Int) {
+open class CellBase(u: Int) {
     var isRunning = true
     private val unitSize = u
     private var finalData = 0
