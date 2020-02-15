@@ -1,4 +1,4 @@
-package com.andromeda.mars.util
+package com.andromeda.mars.demos.util
 
 import com.aparapi.Kernel
 

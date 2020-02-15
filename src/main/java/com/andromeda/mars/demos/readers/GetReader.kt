@@ -1,4 +1,4 @@
-package com.andromeda.mars.readers
+package com.andromeda.mars.demos.readers
 
 import java.io.InputStreamReader
 class GetReader {

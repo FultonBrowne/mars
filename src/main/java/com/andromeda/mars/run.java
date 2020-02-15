@@ -1,7 +1,6 @@
 package com.andromeda.mars;
 
-import com.andromeda.mars.brain.CLI;
-import com.andromeda.mars.scripts.BasicDemo;
+import com.andromeda.mars.demos.scripts.BasicDemo;
 import org.jetbrains.annotations.Contract;
 import org.jetbrains.annotations.NotNull;
 
@@ -16,6 +15,5 @@ public class run {
         BufferedReader obj = new BufferedReader(new InputStreamReader(System.in));
         String readLine = obj.readLine();
         if(readLine.equals("y")) new BasicDemo().main();
-        else new CLI().main();
     }
 }

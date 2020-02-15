@@ -1,4 +1,4 @@
-package com.andromeda.mars.readers
+package com.andromeda.mars.demos.readers
 
 import com.univocity.parsers.tsv.TsvParser
 import com.univocity.parsers.tsv.TsvParserSettings
