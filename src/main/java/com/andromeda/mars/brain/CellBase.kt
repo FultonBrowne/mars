@@ -61,25 +61,20 @@ open class CellBase(u: Int) {
 
     }
     open fun dataToCell(newData:ArrayList<Int>, label:Int){
-        if(isRunning)dataForMatch.addAll(newData)
-        else return
-        if (dataForMatch.size == unitSize){
             isRunning = false
             for (i in structuredData) {
                 if (i.label == label){
-                    i.addData(dataForMatch, this)
-                    dataForMatch.clear()
+                    i.addData(newData, this)
                     isRunning = true
                     return
                 }
+
             }
-            structuredData.add(StructuredData(label, dataForMatch))
+            structuredData.add(StructuredData(label, newData))
             dataForMatch.clear()
             isRunning = true
 
 
-
-        }
 
     }
     open fun dataToCell(newData:ArrayList<Int>, label:String){
@@ -94,7 +89,9 @@ open class CellBase(u: Int) {
                     isRunning = true
                     return
                 }
+
             }
+            structuredData.add(StructuredData(label, dataForMatch))
             structuredData.add(StructuredData(label, dataForMatch))
             dataForMatch.clear()
             isRunning = true
@@ -108,6 +105,7 @@ open class CellBase(u: Int) {
         val parsed = arrayListOf<StructuredData>()
         structuredData.forEach {
             val intArray = arrayListOf<Int>()
+            println(it.data)
             it.data.forEachIndexed { index, i ->
                 intArray.add((i - newData[index]).absoluteValue)
             }
@@ -115,10 +113,11 @@ open class CellBase(u: Int) {
         }
         var lowest: Any? = null
         var lowestVal = Int.MAX_VALUE
+        println(parsed)
         parsed.forEach{
-            var current = 0
+            var current:Int = 0
             it.data.forEach {
-                current += it
+                current = current + it
             }
             if (current < lowestVal){
                 lowest = it.label

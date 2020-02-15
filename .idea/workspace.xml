@@ -24,7 +24,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d0a696d-9185-4151-9952-44a978a64348" name="Default Changelist" comment="bug fix">
+    <list default="true" id="7d0a696d-9185-4151-9952-44a978a64348" name="Default Changelist" comment="first basic test works">
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/build-history.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/build-history.bin" afterDir="false" />
@@ -43,9 +43,8 @@
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab_i" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/last-build.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/last-build.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/mars121jar-classes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/mars121jar-classes.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/libs/mars-1.2.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/mars-1.2.1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/andromeda/mars/run.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/andromeda/mars/run.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/andromeda/mars/brain/CellBase.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/andromeda/mars/brain/CellBase.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/andromeda/mars/scripts/BasicDemo.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/andromeda/mars/scripts/BasicDemo.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -124,7 +123,7 @@
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
@@ -248,20 +247,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1577213396170</updated>
-    </task>
-    <task id="LOCAL-00005" summary="adding files for nlp">
-      <created>1577234378617</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1577234378617</updated>
-    </task>
-    <task id="LOCAL-00006" summary="adding files for nlp and test">
-      <created>1577561713253</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1577561713253</updated>
     </task>
     <task id="LOCAL-00007" summary="awesome thing coming...">
       <created>1578530700978</created>
@@ -592,7 +577,21 @@
       <option name="project" value="LOCAL" />
       <updated>1581709237753</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="first basic test works">
+      <created>1581716145020</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1581716145020</updated>
+    </task>
+    <task id="LOCAL-00055" summary="first basic test works">
+      <created>1581716334106</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1581716334106</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -634,7 +633,8 @@
     <MESSAGE value="working on tsv reader" />
     <MESSAGE value="making changes for other types" />
     <MESSAGE value="bug fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="bug fix" />
+    <MESSAGE value="first basic test works" />
+    <option name="LAST_COMMIT_MESSAGE" value="first basic test works" />
   </component>
   <component name="WindowStateProjectService">
     <state x="141" y="55" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580234135289">
@@ -674,29 +674,29 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="461" y="155" key="FileChooserDialogImpl/0.27.1366.741@0.27.1366.741" timestamp="1580400754423" />
-    <state width="1318" height="277" key="GridCell.Tab.0.bottom" timestamp="1581716230344">
-      <screen x="0" y="27" width="1366" height="741" />
+    <state width="1632" height="277" key="GridCell.Tab.0.bottom" timestamp="1581727498852">
+      <screen x="0" y="236" width="3046" height="814" />
     </state>
-    <state width="1632" height="293" key="GridCell.Tab.0.bottom/0.236.3046.814@0.236.3046.814" timestamp="1580427918017" />
-    <state width="1318" height="277" key="GridCell.Tab.0.bottom/0.27.1366.741@0.27.1366.741" timestamp="1581716230344" />
+    <state width="1632" height="277" key="GridCell.Tab.0.bottom/0.236.3046.814@0.236.3046.814" timestamp="1581727498852" />
+    <state width="1318" height="277" key="GridCell.Tab.0.bottom/0.27.1366.741@0.27.1366.741" timestamp="1581723910607" />
     <state width="1632" height="440" key="GridCell.Tab.0.bottom/1680.209.1366.768/0.236.1680.814@0.236.1680.814" timestamp="1580517362330" />
-    <state width="1318" height="277" key="GridCell.Tab.0.center" timestamp="1581716230344">
-      <screen x="0" y="27" width="1366" height="741" />
+    <state width="1632" height="277" key="GridCell.Tab.0.center" timestamp="1581727498852">
+      <screen x="0" y="236" width="3046" height="814" />
     </state>
-    <state width="1632" height="293" key="GridCell.Tab.0.center/0.236.3046.814@0.236.3046.814" timestamp="1580427918017" />
-    <state width="1318" height="277" key="GridCell.Tab.0.center/0.27.1366.741@0.27.1366.741" timestamp="1581716230344" />
+    <state width="1632" height="277" key="GridCell.Tab.0.center/0.236.3046.814@0.236.3046.814" timestamp="1581727498852" />
+    <state width="1318" height="277" key="GridCell.Tab.0.center/0.27.1366.741@0.27.1366.741" timestamp="1581723910606" />
     <state width="1632" height="440" key="GridCell.Tab.0.center/1680.209.1366.768/0.236.1680.814@0.236.1680.814" timestamp="1580517362330" />
-    <state width="1318" height="277" key="GridCell.Tab.0.left" timestamp="1581716230344">
-      <screen x="0" y="27" width="1366" height="741" />
+    <state width="1632" height="277" key="GridCell.Tab.0.left" timestamp="1581727498851">
+      <screen x="0" y="236" width="3046" height="814" />
     </state>
-    <state width="1632" height="293" key="GridCell.Tab.0.left/0.236.3046.814@0.236.3046.814" timestamp="1580427918016" />
-    <state width="1318" height="277" key="GridCell.Tab.0.left/0.27.1366.741@0.27.1366.741" timestamp="1581716230344" />
+    <state width="1632" height="277" key="GridCell.Tab.0.left/0.236.3046.814@0.236.3046.814" timestamp="1581727498851" />
+    <state width="1318" height="277" key="GridCell.Tab.0.left/0.27.1366.741@0.27.1366.741" timestamp="1581723910606" />
     <state width="1632" height="440" key="GridCell.Tab.0.left/1680.209.1366.768/0.236.1680.814@0.236.1680.814" timestamp="1580517362330" />
-    <state width="1318" height="277" key="GridCell.Tab.0.right" timestamp="1581716230344">
-      <screen x="0" y="27" width="1366" height="741" />
+    <state width="1632" height="277" key="GridCell.Tab.0.right" timestamp="1581727498852">
+      <screen x="0" y="236" width="3046" height="814" />
     </state>
-    <state width="1632" height="293" key="GridCell.Tab.0.right/0.236.3046.814@0.236.3046.814" timestamp="1580427918017" />
-    <state width="1318" height="277" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1581716230344" />
+    <state width="1632" height="277" key="GridCell.Tab.0.right/0.236.3046.814@0.236.3046.814" timestamp="1581727498852" />
+    <state width="1318" height="277" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1581723910606" />
     <state width="1632" height="440" key="GridCell.Tab.0.right/1680.209.1366.768/0.236.1680.814@0.236.1680.814" timestamp="1580517362330" />
     <state width="1318" height="205" key="GridCell.Tab.1.bottom" timestamp="1580055879878">
       <screen x="0" y="27" width="1366" height="741" />
@@ -718,9 +718,10 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="433" y="120" width="489" height="562" key="RollbackChangesDialog/0.27.1366.741@0.27.1366.741" timestamp="1580073635547" />
-    <state x="157" y="31" width="1052" height="737" key="SettingsEditor" timestamp="1580183819086">
-      <screen x="0" y="27" width="1366" height="741" />
+    <state x="0" y="240" width="1680" height="810" key="SettingsEditor" timestamp="1581726639604">
+      <screen x="0" y="236" width="3046" height="814" />
     </state>
+    <state x="0" y="240" width="1680" height="810" key="SettingsEditor/0.236.3046.814@0.236.3046.814" timestamp="1581726639604" />
     <state x="157" y="31" width="1052" height="737" key="SettingsEditor/0.27.1366.741@0.27.1366.741" timestamp="1580183819086" />
     <state x="387" y="133" key="com.intellij.ide.util.TipDialog" timestamp="1579751650868">
       <screen x="0" y="27" width="1366" height="741" />
