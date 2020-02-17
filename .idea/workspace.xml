@@ -24,9 +24,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d0a696d-9185-4151-9952-44a978a64348" name="Default Changelist" comment="images stuff">
+    <list default="true" id="7d0a696d-9185-4151-9952-44a978a64348" name="Default Changelist" comment="working on image reading">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/andromeda/mars/demos/scripts/Image.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/andromeda/mars/demos/scripts/Image.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -228,13 +228,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1577213396170</updated>
-    </task>
-    <task id="LOCAL-00010" summary="awesome thing coming...">
-      <created>1578533749306</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1578533749306</updated>
     </task>
     <task id="LOCAL-00011" summary="awesome thing coming...">
       <created>1578598100552</created>
@@ -572,7 +565,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581894940983</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="added a readme">
+      <created>1581968917948</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1581968917950</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -593,7 +593,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="stuff" />
     <MESSAGE value="adding files" />
     <MESSAGE value="adding files for nlp" />
     <MESSAGE value="adding files for nlp and test" />
@@ -617,7 +616,9 @@
     <MESSAGE value="first basic test works" />
     <MESSAGE value="got stuff polished" />
     <MESSAGE value="images stuff" />
-    <option name="LAST_COMMIT_MESSAGE" value="images stuff" />
+    <MESSAGE value="added a readme" />
+    <MESSAGE value="working on image reading" />
+    <option name="LAST_COMMIT_MESSAGE" value="working on image reading" />
   </component>
   <component name="WindowStateProjectService">
     <state x="141" y="55" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580234135289">
