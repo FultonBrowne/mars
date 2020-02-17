@@ -12,6 +12,7 @@ open class CellBase {
 
 
     open fun dataToCell(newData:ArrayList<Int>, label:Int){
+        println(newData.size)
             isRunning = false
             for (i in structuredData) {
                 if (i.label == label){
@@ -53,7 +54,6 @@ open class CellBase {
         }
         var lowest: Any? = null
         var lowestVal = Int.MAX_VALUE
-        println(parsed)
         parsed.forEach{
             var current:Int = 0
             it.data.forEach {
