@@ -24,9 +24,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d0a696d-9185-4151-9952-44a978a64348" name="Default Changelist" comment="got stuff polished">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/andromeda/mars/demos/scripts/Image.kt" afterDir="false" />
+    <list default="true" id="7d0a696d-9185-4151-9952-44a978a64348" name="Default Changelist" comment="images stuff">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -228,13 +228,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1577213396170</updated>
-    </task>
-    <task id="LOCAL-00009" summary="awesome thing coming...">
-      <created>1578531554361</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1578531554361</updated>
     </task>
     <task id="LOCAL-00010" summary="awesome thing coming...">
       <created>1578533749306</created>
@@ -572,7 +565,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581728352306</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="images stuff">
+      <created>1581894940977</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1581894940983</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -616,7 +616,8 @@
     <MESSAGE value="bug fix" />
     <MESSAGE value="first basic test works" />
     <MESSAGE value="got stuff polished" />
-    <option name="LAST_COMMIT_MESSAGE" value="got stuff polished" />
+    <MESSAGE value="images stuff" />
+    <option name="LAST_COMMIT_MESSAGE" value="images stuff" />
   </component>
   <component name="WindowStateProjectService">
     <state x="141" y="55" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580234135289">
@@ -719,10 +720,11 @@
     </state>
     <state x="387" y="133" key="com.intellij.ide.util.TipDialog/0.27.1366.741@0.27.1366.741" timestamp="1579751650868" />
     <state x="476" y="352" key="com.intellij.ide.util.TipDialog/1680.209.1366.768/0.236.1680.814@0.236.1680.814" timestamp="1579298133857" />
-    <state x="587" y="440" width="495" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1580427989241">
-      <screen x="0" y="236" width="3046" height="814" />
+    <state x="263" y="213" width="495" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1581957185449">
+      <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="587" y="440" width="495" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.236.3046.814@0.236.3046.814" timestamp="1580427989241" />
+    <state x="263" y="213" width="495" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.27.1366.741@0.27.1366.741" timestamp="1581957185449" />
     <state x="397" y="41" width="561" height="720" key="refactoring.ChangeSignatureDialog" timestamp="1581705520249">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
