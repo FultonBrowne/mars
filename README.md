@@ -4,7 +4,7 @@ welcome to the next generation of open source AI
 ## Whats mars?
 well mars  is a planet... NO! the ai mars. 
 
-oh sorry. ok mars is a easy to use ai small ai/ml/dl algorithm desighed to run on anything from phones to servers.
+oh sorry. ok mars is a easy to use ,small ai/ml/dl algorithm designed to run on anything from phones to servers.
 
 ## whats done?
 
