@@ -15,7 +15,7 @@ class Image {
         val file = File(readLine()!!)
         val fis = FileInputStream(file)
         val airplanesByteArray = fis.readAllBytes()
-        val intArray = arrayListOf<Int>()
+        var intArray = arrayListOf<Int>()
         var label: Int? = null
         var gotLabel = false
         airplanesByteArray.forEach {
@@ -23,7 +23,7 @@ class Image {
                 intArray.add(it.toInt())
                 if (intArray.size == 3072){
                     cell.dataToCell(intArray, label!!)
-                    intArray.clear()
+                    intArray= arrayListOf<Int>()
                     gotLabel = false
                 }
             }

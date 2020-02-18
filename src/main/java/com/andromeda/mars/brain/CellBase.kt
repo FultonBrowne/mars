@@ -46,7 +46,6 @@ open class CellBase {
         val parsed = arrayListOf<StructuredData>()
         structuredData.forEach {
             val intArray = arrayListOf<Int>()
-            println(it.data.size)
             it.data.forEachIndexed { index, i ->
                 intArray.add((i - newData[index]).absoluteValue)
             }
