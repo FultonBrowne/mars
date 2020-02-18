@@ -10,6 +10,7 @@ import java.io.ObjectInputStream
 class Image {
     //read the cifar-10 dataset
     fun main(){
+        println("start")
         val cell = CellBase()
         val file = File(readLine()!!)
         val fis = FileInputStream(file)
