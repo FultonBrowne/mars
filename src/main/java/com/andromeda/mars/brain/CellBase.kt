@@ -2,6 +2,7 @@
 
 package com.andromeda.mars.brain
 
+import com.google.gson.Gson
 import kotlin.math.absoluteValue
 
 open class CellBase {
@@ -70,12 +71,14 @@ open class CellBase {
         if (!useDefaultOperation){
             return scriptedOperation()
         }
-        return oldData.xor(newData)
+        return newData.xor(oldData)
     }
-    fun freeze(){
-
+    fun freeze(): String? {
+        return Gson().toJson(this)
     }
     protected fun scriptedOperation(): Int{
         return 0
+    }
+    companion object{
     }
 }

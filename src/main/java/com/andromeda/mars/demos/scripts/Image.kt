@@ -12,6 +12,10 @@ class Image {
     fun main(){
         println("start")
         val cell = CellBase()
+        add(cell)
+        test(cell)
+    }
+    fun add(cell: CellBase){
         val file = File(readLine()!!)
         val fis = FileInputStream(file)
         val airplanesByteArray = fis.readAllBytes()
@@ -33,7 +37,10 @@ class Image {
             }
 
         }
-        test(cell)
+        println("add more data")
+        if (readLine() == "y"){
+            add(cell)
+        }
     }
     fun test(cell:CellBase){
         val file = File(readLine()!!)
@@ -42,12 +49,14 @@ class Image {
         val intArray = arrayListOf<Int>()
         var label: Int? = null
         var gotLabel = false
+        var yes = 0
+        var no = 0
         airplanesByteArray.forEach {
             if (gotLabel){
                 intArray.add(it.toInt())
                 if (intArray.size == 3072){
-                    println("label = $label")
-                    println("returned = " + cell.recognize(intArray))
+                    if(label == cell.recognize(intArray)) yes += 1
+                    else no += 1
                     intArray.clear()
                     gotLabel = false
                 }
@@ -58,6 +67,8 @@ class Image {
             }
 
         }
+        println("yes = $yes")
+        println("no = $no")
     }
 
 

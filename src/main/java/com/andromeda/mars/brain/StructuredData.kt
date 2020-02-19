@@ -5,5 +5,7 @@ class StructuredData(val label:Any, var data:ArrayList<Int> ) {
         newData.forEachIndexed { index, t ->
             data[index] = cellBase.operation(t, data[index])
             }
+
+
     }
 }
