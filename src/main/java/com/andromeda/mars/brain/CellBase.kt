@@ -37,9 +37,6 @@ open class CellBase {
                     return
                 }
             structuredData.add(StructuredData(label, newData))
-
-
-
         }
 
     }
@@ -57,7 +54,7 @@ open class CellBase {
         parsed.forEach{
             var current:Int = 0
             it.data.forEach {
-                current = current + it
+                current += it
             }
             if (current < lowestVal){
                 lowest = it.label
@@ -78,7 +75,5 @@ open class CellBase {
     }
     protected fun scriptedOperation(): Int{
         return 0
-    }
-    companion object{
     }
 }

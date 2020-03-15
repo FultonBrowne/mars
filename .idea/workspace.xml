@@ -26,30 +26,10 @@
   <component name="ChangeListManager">
     <list default="true" id="7d0a696d-9185-4151-9952-44a978a64348" name="Default Changelist" comment="working on image reading">
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/META-INF/mars.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/build-history.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab_i" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab_i" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab_i" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab_i" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab_i" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab_i" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/last-build.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/mars121jar-classes.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/mars-1.2.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/andromeda/mars/brain/CellBase.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/andromeda/mars/brain/CellBase.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/andromeda/mars/brain/StructuredData.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/andromeda/mars/brain/StructuredData.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/andromeda/mars/demos/scripts/Image.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/andromeda/mars/demos/scripts/Image.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/build-history.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/build-history.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/last-build.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/last-build.bin" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,7 +124,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/com/andromeda/mars" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.mars [build run]">
+  <component name="RunManager" selected="Gradle.MainTest">
     <configuration name="run" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.andromeda.mars.run" />
       <module name="mars.main" />
@@ -157,6 +137,26 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="MainTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.andromeda.mars.test.MainTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" value="" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
     </configuration>
     <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
       <ExternalSystemSettings>
@@ -230,11 +230,13 @@
       <item itemvalue="Application.run" />
       <item itemvalue="Gradle.mars [wrapper]" />
       <item itemvalue="Gradle.mars [build run]" />
+      <item itemvalue="Gradle.MainTest" />
       <item itemvalue="JAR Application.mars.jar" />
       <item itemvalue="JAR Application.mars-1.2.1.jar" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.MainTest" />
         <item itemvalue="JAR Application.mars.jar" />
         <item itemvalue="JAR Application.mars-1.2.1.jar" />
         <item itemvalue="Application.run" />
@@ -613,6 +615,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -694,32 +697,32 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="461" y="155" key="FileChooserDialogImpl/0.27.1366.741@0.27.1366.741" timestamp="1580400754423" />
-    <state width="1632" height="263" key="GridCell.Tab.0.bottom" timestamp="1582072058097">
-      <screen x="0" y="236" width="3046" height="814" />
+    <state width="1318" height="161" key="GridCell.Tab.0.bottom" timestamp="1582386329473">
+      <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state width="1632" height="263" key="GridCell.Tab.0.bottom/0.236.3046.814@0.236.3046.814" timestamp="1582072058097" />
-    <state width="1318" height="263" key="GridCell.Tab.0.bottom/0.27.1366.741@0.27.1366.741" timestamp="1582067565831" />
+    <state width="1318" height="161" key="GridCell.Tab.0.bottom/0.27.1366.741@0.27.1366.741" timestamp="1582386329473" />
     <state width="1632" height="277" key="GridCell.Tab.0.bottom/1680.209.1366.768/0.236.1680.814@0.236.1680.814" timestamp="1581986885364" />
     <state width="1318" height="263" key="GridCell.Tab.0.bottom/1680.209.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1581989980365" />
-    <state width="1632" height="263" key="GridCell.Tab.0.center" timestamp="1582072058097">
-      <screen x="0" y="236" width="3046" height="814" />
+    <state width="1318" height="161" key="GridCell.Tab.0.center" timestamp="1582386329472">
+      <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state width="1632" height="263" key="GridCell.Tab.0.center/0.236.3046.814@0.236.3046.814" timestamp="1582072058097" />
-    <state width="1318" height="263" key="GridCell.Tab.0.center/0.27.1366.741@0.27.1366.741" timestamp="1582067565830" />
+    <state width="1318" height="161" key="GridCell.Tab.0.center/0.27.1366.741@0.27.1366.741" timestamp="1582386329472" />
     <state width="1632" height="277" key="GridCell.Tab.0.center/1680.209.1366.768/0.236.1680.814@0.236.1680.814" timestamp="1581986885364" />
     <state width="1318" height="263" key="GridCell.Tab.0.center/1680.209.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1581989980365" />
-    <state width="1632" height="263" key="GridCell.Tab.0.left" timestamp="1582072058096">
-      <screen x="0" y="236" width="3046" height="814" />
+    <state width="1318" height="161" key="GridCell.Tab.0.left" timestamp="1582386329472">
+      <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state width="1632" height="263" key="GridCell.Tab.0.left/0.236.3046.814@0.236.3046.814" timestamp="1582072058096" />
-    <state width="1318" height="263" key="GridCell.Tab.0.left/0.27.1366.741@0.27.1366.741" timestamp="1582067565830" />
+    <state width="1318" height="161" key="GridCell.Tab.0.left/0.27.1366.741@0.27.1366.741" timestamp="1582386329472" />
     <state width="1632" height="277" key="GridCell.Tab.0.left/1680.209.1366.768/0.236.1680.814@0.236.1680.814" timestamp="1581986885363" />
     <state width="1318" height="263" key="GridCell.Tab.0.left/1680.209.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1581989980365" />
-    <state width="1632" height="263" key="GridCell.Tab.0.right" timestamp="1582072058097">
-      <screen x="0" y="236" width="3046" height="814" />
+    <state width="1318" height="161" key="GridCell.Tab.0.right" timestamp="1582386329473">
+      <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state width="1632" height="263" key="GridCell.Tab.0.right/0.236.3046.814@0.236.3046.814" timestamp="1582072058097" />
-    <state width="1318" height="263" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1582067565830" />
+    <state width="1318" height="161" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1582386329473" />
     <state width="1632" height="277" key="GridCell.Tab.0.right/1680.209.1366.768/0.236.1680.814@0.236.1680.814" timestamp="1581986885364" />
     <state width="1318" height="263" key="GridCell.Tab.0.right/1680.209.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1581989980365" />
     <state width="1318" height="205" key="GridCell.Tab.1.bottom" timestamp="1580055879878">
@@ -770,5 +773,8 @@
     </state>
     <state x="772" y="304" width="1499" height="745" key="search.everywhere.popup/0.236.3046.814@0.236.3046.814" timestamp="1580678786045" />
     <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/1680.209.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1579707803226" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/mars$MainTest.ic" NAME="MainTest Coverage Results" MODIFIED="1582340857724" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
