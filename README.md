@@ -8,7 +8,7 @@ oh sorry. ok mars is a easy to use ,small ai/ml/dl algorithm designed to run on 
 
 ## whats done?
 
-well it can pickup some basic pattern and do basic stuff like that I am working on image and voice tests as of now.
+well it can pickup some basic pattern and do basic stuff like handwriting recognion I am working on image and voice tests as of now.
 
 ## where can I get updates?
 I will post all updates on  https://dev.to
