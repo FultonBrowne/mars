@@ -9,7 +9,6 @@ open class CellBase {
     var isRunning = true
     val structuredData = arrayListOf<StructuredData>()
     var useDefaultOperation = true
-    val cells = arrayListOf<CellBase>()
 
 
     open fun dataToCell(newData:ArrayList<Int>, label:Int){
@@ -52,7 +51,7 @@ open class CellBase {
         var lowest: Any? = null
         var lowestVal = Int.MAX_VALUE
         parsed.forEach{
-            var current:Int = 0
+            var current = 0
             it.data.forEach {
                 current += it
             }
