@@ -1,6 +1,6 @@
 package com.andromeda.mars.demos.scripts
 
-import com.andromeda.mars.brain.CellBase
+import com.andromeda.mars.ml.CellBase
 
 class BasicDemo {
     fun main(){

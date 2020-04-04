@@ -1,10 +1,8 @@
 package com.andromeda.mars.demos.scripts
 
-import com.andromeda.mars.brain.CellBase
-import java.awt.Label
+import com.andromeda.mars.ml.CellBase
 import java.io.File
 import java.io.FileInputStream
-import java.io.ObjectInputStream
 
 
 class Image {

@@ -24,12 +24,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d0a696d-9185-4151-9952-44a978a64348" name="Default Changelist" comment="working on image reading">
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+    <list default="true" id="7d0a696d-9185-4151-9952-44a978a64348" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/build-history.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/build-history.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/last-build.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/last-build.bin" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -253,13 +249,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1577213396170</updated>
-    </task>
-    <task id="LOCAL-00015" summary="awesome thing coming...">
-      <created>1579581169130</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1579581169130</updated>
     </task>
     <task id="LOCAL-00016" summary="awesome thing coming...">
       <created>1579647985177</created>
@@ -597,7 +586,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581986873189</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="code clean up">
+      <created>1584306569472</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1584306569472</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -619,7 +615,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="adding files for nlp" />
     <MESSAGE value="adding files for nlp and test" />
     <MESSAGE value="awesome thing coming..." />
     <MESSAGE value="removed most test log things" />
@@ -644,7 +639,8 @@
     <MESSAGE value="added a readme" />
     <MESSAGE value="working on image reading" />
     <MESSAGE value="image stuff" />
-    <option name="LAST_COMMIT_MESSAGE" value="image stuff" />
+    <MESSAGE value="code clean up" />
+    <option name="LAST_COMMIT_MESSAGE" value="code clean up" />
   </component>
   <component name="WindowStateProjectService">
     <state x="141" y="55" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580234135289">
@@ -682,12 +678,12 @@
     </state>
     <state x="914" y="240" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/0.236.3046.814@0.236.3046.814" timestamp="1581728290415" />
     <state x="410" y="31" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/0.27.1366.741@0.27.1366.741" timestamp="1581705463396" />
-    <state x="264" y="27" width="1680" height="814" key="CommitChangelistDialog2" timestamp="1579884960506">
-      <screen x="0" y="27" width="1366" height="741" />
+    <state x="0" y="236" width="1680" height="814" key="CommitChangelistDialog2" timestamp="1584306569095">
+      <screen x="0" y="236" width="1680" height="814" />
     </state>
     <state x="0" y="236" width="1680" height="814" key="CommitChangelistDialog2/0.236.3046.814@0.236.3046.814" timestamp="1579295124240" />
     <state x="264" y="27" width="828" height="741" key="CommitChangelistDialog2/0.27.1366.741@0.27.1366.741" timestamp="1579752383276" />
-    <state x="0" y="236" width="1680" height="814" key="CommitChangelistDialog2/1680.209.1366.768/0.236.1680.814@0.236.1680.814" timestamp="1579828572957" />
+    <state x="0" y="236" width="1680" height="814" key="CommitChangelistDialog2/1680.209.1366.768/0.236.1680.814@0.236.1680.814" timestamp="1584306569095" />
     <state x="264" y="27" width="839" height="741" key="CommitChangelistDialog2/1680.209.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1579884960506" />
     <state x="100" y="100" width="1480" height="850" key="DiffContextDialog" timestamp="1581981847484">
       <screen x="0" y="236" width="3046" height="814" />

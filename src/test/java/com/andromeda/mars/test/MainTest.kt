@@ -1,6 +1,6 @@
 package com.andromeda.mars.test
 
-import com.andromeda.mars.brain.CellBase
+import com.andromeda.mars.ml.CellBase
 import org.junit.Assert
 import org.junit.Test
 

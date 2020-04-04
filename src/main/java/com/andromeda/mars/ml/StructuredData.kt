@@ -1,4 +1,4 @@
-package com.andromeda.mars.brain
+package com.andromeda.mars.ml
 
 class StructuredData(val label:Any, var data:ArrayList<Int> ) {
     fun addData(newData:ArrayList<Int>, cellBase: CellBase){

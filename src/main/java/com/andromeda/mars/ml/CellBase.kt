@@ -1,6 +1,6 @@
 @file:Suppress("MemberVisibilityCanBePrivate")
 
-package com.andromeda.mars.brain
+package com.andromeda.mars.ml
 
 import com.google.gson.Gson
 import kotlin.math.absoluteValue
