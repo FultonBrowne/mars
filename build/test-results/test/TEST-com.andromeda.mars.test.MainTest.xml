@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.andromeda.mars.test.MainTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-02-22T03:07:40" hostname="fulton-Latitude-E7450" time="0.248">
+  <properties/>
+  <testcase name="test" classname="com.andromeda.mars.test.MainTest" time="0.248"/>
+  <system-out><![CDATA[4
+4
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
